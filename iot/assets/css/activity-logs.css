@@ -1,0 +1,96 @@
+body {
+  background-image: url(../img/utoolity-bg2.jpg);
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  line-height: 1;
+  height: 100vh;
+}
+
+main,
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  height: 100vh;
+}
+
+main > .container {
+  background-color: #212529;
+  width: 70vw !important;
+  padding: 7vh 0;
+  border-radius: 5%;
+  border: 0.5em solid white;
+}
+
+h2,
+p {
+  color: white !important;
+  margin-bottom: 0.7em;
+}
+
+button {
+  background-color: white !important;
+}
+
+.paginate_button {
+  background-color: white !important;
+}
+
+.ellipsis,
+.dataTables_info,
+label {
+  color: white !important;
+}
+
+a.paginate_button.current {
+  background: none !important;
+  background-color: #1e3583 !important;
+  color: white !important;
+}
+
+a {
+  color: white !important;
+}
+
+.dataTables_wrapper.dataTables_paginate.paginate_button {
+  background: none !important;
+  background-color: #1e3583 !important;
+  color: white !important;
+}
+
+button.dt-button.buttons-print.btn.btn-primary {
+  padding: 0.3em 0.8em !important;
+  font-size: 1.5em !important;
+  border-radius: 10% !important;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current,
+.dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+  background: none !important;
+  background-color: #1e3583 !important;
+  color: white !important;
+  border-color: #1e3583;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover,
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover,
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+  background: none !important;
+  background-color: #1e3583 !important;
+  border-color: #1e3583;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button.disabled,
+.dataTables_wrapper .dataTables_paginate .paginate_button.disabled:hover,
+.dataTables_wrapper .dataTables_paginate .paginate_button.disabled:active {
+  background-color: lightgray !important;
+  color: #1e3583 !important;
+  border-color: #1e3583 !important;
+}
+
+.dataTables_wrapper .dataTables_filter input {
+  background-color: white;
+}

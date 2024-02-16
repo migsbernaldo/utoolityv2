@@ -1,0 +1,413 @@
+.navbar-toggler{
+    padding: 1em !important;
+}
+
+.command-list{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.command-label {
+    text-align: end ;
+}
+
+body{
+    display: block;
+    background-image: url(../assets/img/utoolity-bg.jpg) !important;
+    background-color: rgb(37, 79, 158) !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    height: 100vh;
+}
+
+.container {
+    height: 100%;
+}
+.control-col-mobile{
+    display: none !important;
+}
+
+.header-row{
+    display: none !important;
+}
+
+.tool-col{
+    background-color: rgb(20, 59, 141) !important;
+}
+
+.circle{
+    /* transform: translate(-50%, 50%) !important; */
+    border-radius:  0 200% 200% 0;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-width: 5em !important;
+    border-color: black;
+    padding-top: 4em;
+}
+
+.con-body {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    height: 100vh;
+}
+
+.remote-icon{
+    text-align: center;
+    font-size: 2em !important;
+    margin-top: 1em;
+}
+
+.remote-col{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* flex: 1 0 50%; */
+    width: 30vw;
+    background: none;
+    border: 0 !important;
+    color: white;
+}
+
+button {
+    padding: 2em 2.3em !important;
+    border-radius: .7em !important;
+}
+
+button i {
+    font-size: 2em !important;
+}
+
+.card {
+    background-color: #212529 !important;
+    border-width: .3em !important;
+    border-color: white !important;
+    border-radius: 3% !important;
+    margin-right: 5vw;
+}
+
+.card-header {
+    background: none !important;
+    border: 0 !important;
+}
+
+.card-body{
+    display: flex !important;
+    justify-content: center !important;
+    margin-top: 5em;
+}
+
+#TempDecButton{
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
+
+#TempIncButton{
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+}
+
+#temp-row {
+    display: flex !important;
+    flex-direction: column !important;
+    padding: auto !important;
+}
+
+#temp-row button{
+    padding: 2em !important;
+    font-size: .7em !important;
+}
+
+#temp-label{
+    margin: auto !important;
+    width: auto;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#power-label {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#temp-row2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    font-size: 5em;
+    font-weight: bold;
+}
+
+.temp-group{
+    display: flex;
+    justify-content: center;
+}
+
+.remote-main{
+    display: flex !important;
+    flex-wrap: nowrap !important;
+    justify-content: center;
+    /* margin: auto !important; */
+}
+
+#power-col, #pair-col{
+    margin: auto;
+    width: auto !important;
+}
+
+#ac-breaker p, #light-breaker p{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+#power-label, #pair-label{
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.cont-mobile{
+    display: none !important;
+}
+
+#ac-breaker button, #light-breaker button{
+    border-radius: 100% !important;
+    padding: 3em 3.3em !important;
+    font-size: 1.5em !important;
+}
+
+@media only screen and (max-width: 960px) {
+    .con-body>.row{
+        flex-direction: column !important;
+    }
+
+    .control-col-mobile{
+        display: flex !important;
+    }
+
+    .header-col{
+        display: none !important;
+    }
+
+    .control-col.circle{
+        display: none !important;
+    }
+
+    .remote-col{
+        flex: 0 0 0% !important;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .container {
+        display: flex !important;
+        align-items: center !important;
+    }
+
+    .circle{
+        /* transform: translate(-50%, 50%) !important; */
+        border-radius:  0 0 200% 200%;
+        max-width: 100%;
+        width: 100%;
+        background-color: white;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column !important;
+    }
+
+    .circle p {
+        color: black;
+    }
+
+    .circle.card{
+        margin-right: 5vw;
+    }
+
+    body {
+        justify-content: center;
+        background-color: rgb(18, 37, 77) !important;
+    }
+
+    .row.h-100{
+        display: flex;
+        align-items: center;
+        flex: 12;
+    }
+
+    .card {
+        background: none !important;
+        border: none !important;
+        width: 100%;
+        margin-right: 0 !important;
+    }
+
+    .card-body{
+        margin-top: 0;
+    }
+
+    .cont-desktop{
+        display: none !important;
+    }
+    
+    .cont-mobile{
+        display: flex !important;
+        justify-content: center !important;
+    }
+
+    .control-row{
+        display: flex !important;
+        justify-content: center !important;
+        flex-direction: row !important;
+        align-items: center !important;
+        flex-wrap: nowrap !important;
+        padding-top: 2em !important;
+    }
+
+    #ac-breaker, #light-breaker{
+        justify-content: center !important;
+    }
+
+    #ac-breaker form, #light-breaker form{
+        text-align: center !important;
+    }
+
+    .btn-group {
+        margin-bottom: 2em !important;
+    }
+
+    #ac-breaker button, #light-breaker button{
+        padding: 1em 1.3em !important;
+        font-size: 2em !important;
+    }
+
+    .remote-col{
+        padding: 0 !important;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .con-body>.row{
+        flex-direction: column !important;
+    }
+
+    .control-col-mobile{
+        display: flex !important;
+    }
+
+    .header-col{
+        display: none !important;
+    }
+
+    .control-col.circle{
+        display: none !important;
+    }
+
+    .remote-col{
+        flex: 0 0 0% !important;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .container {
+        display: flex !important;
+        align-items: center !important;
+    }
+
+    .circle{
+        /* transform: translate(-50%, 50%) !important; */
+        border-radius:  0 0 200% 200%;
+        max-width: 100%;
+        width: 100%;
+        background-color: white;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column !important;
+    }
+
+    .circle p {
+        color: black;
+    }
+
+    .circle.card{
+        margin-right: 5vw;
+    }
+
+    body {
+        justify-content: center;
+        background-color: rgb(18, 37, 77) !important;
+    }
+
+    .row.h-100{
+        display: flex;
+        align-items: center;
+        flex: 12;
+    }
+
+    .card {
+        background: none !important;
+        border: none !important;
+        width: 100%;
+        margin-right: 0 !important;
+    }
+
+    .card-body{
+        margin-top: 0;
+    }
+
+    .cont-desktop{
+        display: none !important;
+    }
+    
+    .cont-mobile{
+        display: flex !important;
+        justify-content: center !important;
+    }
+
+    .control-row{
+        display: flex !important;
+        justify-content: center !important;
+        flex-direction: row !important;
+        align-items: center !important;
+        flex-wrap: nowrap !important;
+        padding-top: 2em !important;
+    }
+
+    #ac-breaker, #light-breaker{
+        justify-content: center !important;
+    }
+
+    #ac-breaker form, #light-breaker form{
+        text-align: center !important;
+    }
+
+    .btn-group {
+        margin-bottom: 2em !important;
+    }
+
+    button {
+        padding: 1em 1.3em !important;
+        border-radius: .4em !important;
+    }
+    
+    button i {
+        font-size: 1em !important;
+    }
+
+    #temp-row2{
+        font-size: 3em;
+    }
+
+    #power-label, #pair-label{
+        font-size: 1em;
+    }
+
+    .remote-col{
+        padding: 0 !important;
+    }
+}

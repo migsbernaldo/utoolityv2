@@ -1,0 +1,149 @@
+.header-mobile {
+  display: none;
+}
+
+.navbar {
+  border-bottom: 0.3em solid white !important;
+}
+
+.navbar-toggler {
+  padding: 0.5em !important;
+}
+
+button {
+  padding: 1em 1.3em !important;
+  border-radius: 0.7em !important;
+  font-size: 2em !important;
+}
+
+.command-list {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-bottom: 0;
+}
+
+#welcome-user-desktop {
+  display: flex;
+  flex-direction: row;
+  margin-right: 1em;
+}
+
+#welcome-user-desktop p,
+#user {
+  color: white;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+#welcome-user-mobile {
+  display: none;
+}
+.button-group {
+  padding-right: 0 !important;
+  justify-content: flex-end !important;
+}
+
+#act-logs {
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+  border-top-left-radius: 0.5em !important;
+  border-bottom-left-radius: 0.5em !important;
+}
+
+#create-user {
+  border-radius: 0 !important;
+}
+
+#userlogout {
+  border-top-right-radius: 0.5em !important;
+  border-bottom-right-radius: 0.5em !important;
+}
+
+#act-logs,
+#create-user,
+#userlogout {
+  padding: 0.5em 1em !important;
+}
+
+.command-list button a {
+  color: white;
+}
+
+#userlogout.btn-secondary {
+  background-color: rgb(172, 6, 0) !important;
+}
+
+#userlogout.btn-secondary:hover {
+  background-color: rgb(150, 7, 2) !important;
+}
+
+#user,
+#user-mobile {
+  color: #75c0f9 !important;
+}
+@media only screen and (max-width: 960px) {
+  .navbar-brand img {
+    width: 200px !important;
+  }
+
+  .header-mobile {
+    display: block;
+  }
+
+  .header-desktop {
+    display: none;
+  }
+
+  #welcome-user-desktop {
+    display: none;
+  }
+
+  .navbar.justify-content-between {
+    display: flex;
+    justify-content: center !important;
+  }
+
+  #navbarHeader .container,
+  #navbarHeader .row {
+    justify-content: center !important;
+  }
+
+  #welcome-user-mobile {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    font-size: 1.5em !important;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 0 !important;
+  }
+
+  .offset-md-1 {
+    margin-left: 0 !important;
+  }
+}
+
+.text-muted strong {
+  font-weight: bold !important;
+  color: #75c0f9 !important;
+}
+
+.text-muted a {
+  color: #6c757d !important;
+  text-decoration: none !important;
+}
+.text-muted #comteq-link {
+  color: #75c0f9 !important;
+}
+
+@media only screen and (max-width: 320px) {
+  .navbar-brand img {
+    width: 150px !important;
+  }
+
+  .navbar-toggler {
+    padding: 0.2em !important;
+  }
+}

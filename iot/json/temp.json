@@ -1,0 +1,1478 @@
+[
+    {
+        "id": 1,
+        "type": "Temperature Decrease",
+        "temp": 24,
+        "timestamp": "May-19-2023 10:46:18 AM"
+    },
+    {
+        "id": 2,
+        "type": "Temperature Decrease",
+        "temp": 23,
+        "timestamp": "May-29-2023 01:44:58 PM"
+    },
+    {
+        "id": 3,
+        "type": "Temperature Decrease",
+        "temp": 22,
+        "timestamp": "May-29-2023 01:45:15 PM"
+    },
+    {
+        "id": 4,
+        "type": "Temperature Decrease",
+        "temp": 21,
+        "timestamp": "May-29-2023 01:45:42 PM"
+    },
+    {
+        "id": 5,
+        "type": "Temperature Decrease",
+        "temp": 20,
+        "timestamp": "May-29-2023 01:49:17 PM"
+    },
+    {
+        "id": 6,
+        "type": "Temperature Decrease",
+        "temp": 19,
+        "timestamp": "May-29-2023 01:51:44 PM"
+    },
+    {
+        "id": 7,
+        "type": "Temperature Decrease",
+        "temp": 18,
+        "timestamp": "May-29-2023 01:52:03 PM"
+    },
+    {
+        "id": 8,
+        "type": "Temperature Decrease",
+        "temp": 17,
+        "timestamp": "May-29-2023 01:52:20 PM"
+    },
+    {
+        "id": 9,
+        "type": "Temperature Increase",
+        "temp": 21,
+        "timestamp": "May-29-2023 01:56:23 PM"
+    },
+    {
+        "id": 10,
+        "type": "Temperature Decrease",
+        "temp": 20,
+        "timestamp": "May-29-2023 01:58:08 PM"
+    },
+    {
+        "id": 11,
+        "type": "Temperature Increase",
+        "temp": 21,
+        "timestamp": "May-29-2023 02:12:52 PM"
+    },
+    {
+        "id": 12,
+        "type": "Temperature Decrease",
+        "temp": 20,
+        "timestamp": "May-29-2023 02:13:43 PM"
+    },
+    {
+        "id": 13,
+        "type": "Temperature Increase",
+        "temp": 21,
+        "timestamp": "May-29-2023 02:24:46 PM"
+    },
+    {
+        "id": 14,
+        "type": "Temperature Increase",
+        "temp": 22,
+        "timestamp": "May-29-2023 02:36:43 PM"
+    },
+    {
+        "id": 15,
+        "type": "Temperature Increase",
+        "temp": 23,
+        "timestamp": "May-29-2023 02:39:21 PM"
+    },
+    {
+        "id": 16,
+        "type": "Temperature Increase",
+        "temp": 24,
+        "timestamp": "May-29-2023 02:45:28 PM"
+    },
+    {
+        "id": 17,
+        "type": "Temperature Decrease",
+        "temp": 23,
+        "timestamp": "May-29-2023 03:16:00 PM"
+    },
+    {
+        "id": 18,
+        "type": "Temperature Increase",
+        "temp": 24,
+        "timestamp": "May-29-2023 03:38:51 PM"
+    },
+    {
+        "id": 19,
+        "type": "Temperature Increase",
+        "temp": 25,
+        "timestamp": "May-30-2023 01:47:00 PM"
+    },
+    {
+        "id": 20,
+        "type": "Temperature Decrease",
+        "temp": 24,
+        "timestamp": "May-30-2023 01:47:34 PM"
+    },
+    {
+        "id": 21,
+        "type": "Temperature Decrease",
+        "temp": 23,
+        "timestamp": "May-30-2023 01:47:56 PM"
+    },
+    {
+        "id": 22,
+        "type": "Temperature Decrease",
+        "temp": 22,
+        "timestamp": "May-30-2023 01:48:17 PM"
+    },
+    {
+        "id": 23,
+        "type": "Temperature Increase",
+        "temp": 23,
+        "timestamp": "May-30-2023 02:31:13 PM"
+    },
+    {
+        "id": 24,
+        "type": "Temperature Increase",
+        "temp": 24,
+        "timestamp": "May-30-2023 02:31:59 PM"
+    },
+    {
+        "id": 25,
+        "type": "Temperature Increase",
+        "temp": 25,
+        "timestamp": "Jun-1-2023 10:44:07 AM"
+    },
+    {
+        "id": 26,
+        "type": "Temperature Increase",
+        "temp": 26,
+        "timestamp": "Jun-1-2023 10:44:12 AM"
+    },
+    {
+        "id": 27,
+        "type": "Temperature Increase",
+        "temp": 27,
+        "timestamp": "Jun-1-2023 10:44:14 AM"
+    },
+    {
+        "id": 28,
+        "type": "Temperature Decrease",
+        "temp": 26,
+        "timestamp": "Jun-1-2023 10:44:15 AM"
+    },
+    {
+        "id": 29,
+        "type": "Temperature Decrease",
+        "temp": 25,
+        "timestamp": "Jun-1-2023 10:44:16 AM"
+    },
+    {
+        "id": 30,
+        "type": "Temperature Increase",
+        "temp": 26,
+        "timestamp": "Jun-1-2023 10:44:16 AM"
+    },
+    {
+        "id": 31,
+        "type": "Temperature Increase",
+        "temp": 27,
+        "timestamp": "Jun-1-2023 10:44:17 AM"
+    },
+    {
+        "id": 32,
+        "type": "Temperature Decrease",
+        "temp": 26,
+        "timestamp": "Jun-1-2023 10:44:18 AM"
+    },
+    {
+        "id": 33,
+        "type": "Temperature Increase",
+        "temp": 27,
+        "timestamp": "Jun-1-2023 10:44:20 AM"
+    },
+    {
+        "id": 34,
+        "type": "Temperature Decrease",
+        "temp": 26,
+        "timestamp": "Jun-1-2023 10:44:21 AM"
+    },
+    {
+        "id": 35,
+        "type": "Temperature Increase",
+        "temp": 27,
+        "timestamp": "Jun-1-2023 10:44:26 AM"
+    },
+    {
+        "id": 36,
+        "type": "Temperature Increase",
+        "temp": 28,
+        "timestamp": "Jun-1-2023 11:01:48 AM"
+    },
+    {
+        "id": 37,
+        "type": "Temperature Decrease",
+        "temp": 27,
+        "timestamp": "Jun-1-2023 11:01:51 AM"
+    },
+    {
+        "id": 38,
+        "type": "Temperature Decrease",
+        "temp": 26,
+        "timestamp": "Jun-1-2023 11:01:55 AM"
+    },
+    {
+        "id": 39,
+        "type": "Temperature Decrease",
+        "temp": 25,
+        "timestamp": "Jun-1-2023 11:01:57 AM"
+    },
+    {
+        "id": 40,
+        "type": "Temperature Increase",
+        "temp": 26,
+        "timestamp": "Jun-1-2023 11:04:40 AM"
+    },
+    {
+        "id": 41,
+        "type": "Temperature Increase",
+        "temp": 27,
+        "timestamp": "Jun-1-2023 11:04:44 AM"
+    },
+    {
+        "id": 42,
+        "type": "Temperature Decrease",
+        "temp": 26,
+        "timestamp": "Jun-1-2023 11:04:45 AM"
+    },
+    {
+        "id": 43,
+        "type": "Temperature Decrease",
+        "temp": 25,
+        "timestamp": "Jun-1-2023 11:08:30 AM"
+    },
+    {
+        "id": 44,
+        "type": "Temperature Decrease",
+        "temp": 24,
+        "timestamp": "Jun-1-2023 11:08:31 AM"
+    },
+    {
+        "id": 45,
+        "type": "Temperature Increase",
+        "temp": 25,
+        "timestamp": "Jun-1-2023 11:08:32 AM"
+    },
+    {
+        "id": 46,
+        "type": "Temperature Increase",
+        "temp": 26,
+        "timestamp": "Jun-1-2023 11:08:33 AM"
+    },
+    {
+        "id": 47,
+        "type": "Temperature Increase",
+        "temp": 27,
+        "timestamp": "Jun-1-2023 11:09:57 AM"
+    },
+    {
+        "id": 48,
+        "type": "Temperature Decrease",
+        "temp": 24,
+        "timestamp": "Jun-1-2023 11:10:00 AM"
+    },
+    {
+        "id": 49,
+        "type": "Temperature Increase",
+        "temp": 25,
+        "timestamp": "Jun-1-2023 11:10:33 AM"
+    },
+    {
+        "id": 50,
+        "type": "Temperature Increase",
+        "temp": 26,
+        "timestamp": "Jun-1-2023 11:10:39 AM"
+    },
+    {
+        "id": 51,
+        "type": "Temperature Decrease",
+        "temp": 25,
+        "timestamp": "Jun-1-2023 11:10:40 AM"
+    },
+    {
+        "id": 52,
+        "type": "Temperature Increase",
+        "temp": 26,
+        "timestamp": "Jun-1-2023 11:31:12 AM"
+    },
+    {
+        "id": 53,
+        "type": "Temperature Decrease",
+        "temp": 25,
+        "timestamp": "Jun-1-2023 11:31:15 AM"
+    },
+    {
+        "id": 54,
+        "type": "Temperature Decrease",
+        "temp": 24,
+        "timestamp": "Jun-1-2023 11:31:17 AM"
+    },
+    {
+        "id": 55,
+        "type": "Temperature Decrease",
+        "temp": 23,
+        "timestamp": "Jun-1-2023 11:31:19 AM"
+    },
+    {
+        "id": 56,
+        "type": "Temperature Increase",
+        "temp": 24,
+        "timestamp": "Jun-1-2023 12:40:22 PM"
+    },
+    {
+        "id": 57,
+        "type": "Temperature Increase",
+        "temp": 25,
+        "timestamp": "Jun-1-2023 12:40:24 PM"
+    },
+    {
+        "id": 58,
+        "type": "Temperature Decrease",
+        "temp": 24,
+        "timestamp": "Jun-1-2023 12:40:28 PM"
+    },
+    {
+        "id": 59,
+        "type": "Temperature Decrease",
+        "temp": 23,
+        "timestamp": "Jun-1-2023 12:40:30 PM"
+    },
+    {
+        "id": 60,
+        "type": "Temperature Decrease",
+        "temp": 22,
+        "timestamp": "Jun-1-2023 12:40:31 PM"
+    },
+    {
+        "id": 61,
+        "type": "Temperature Decrease",
+        "temp": 21,
+        "timestamp": "Jun-1-2023 02:29:34 PM"
+    },
+    {
+        "id": 62,
+        "type": "Temperature Decrease",
+        "temp": 20,
+        "timestamp": "Jun-1-2023 02:29:40 PM"
+    },
+    {
+        "id": 63,
+        "type": "Temperature Decrease",
+        "temp": 19,
+        "timestamp": "Jun-1-2023 06:00:08 PM"
+    },
+    {
+        "id": 64,
+        "type": "Temperature Decrease",
+        "temp": 18,
+        "timestamp": "Jun-1-2023 06:00:10 PM"
+    },
+    {
+        "id": 65,
+        "type": "Temperature Decrease",
+        "temp": 17,
+        "timestamp": "Jun-1-2023 06:00:11 PM"
+    },
+    {
+        "id": 66,
+        "type": "Temperature Increase",
+        "temp": 18,
+        "timestamp": "Jun-1-2023 06:01:07 PM"
+    },
+    {
+        "id": 67,
+        "type": "Temperature Increase",
+        "temp": 19,
+        "timestamp": "Jun-1-2023 06:05:33 PM"
+    },
+    {
+        "id": 68,
+        "type": "Temperature Increase",
+        "temp": 20,
+        "timestamp": "Jun-1-2023 06:05:37 PM"
+    },
+    {
+        "id": 69,
+        "type": "Temperature Increase",
+        "temp": 21,
+        "timestamp": "Jun-1-2023 06:05:39 PM"
+    },
+    {
+        "id": 70,
+        "type": "Temperature Increase",
+        "temp": 22,
+        "timestamp": "Jun-1-2023 06:05:48 PM"
+    },
+    {
+        "id": 71,
+        "type": "Temperature Increase",
+        "temp": 23,
+        "timestamp": "Jun-1-2023 06:05:50 PM"
+    },
+    {
+        "id": 72,
+        "type": "Temperature Increase",
+        "temp": 24,
+        "timestamp": "Jun-1-2023 06:05:51 PM"
+    },
+    {
+        "id": 73,
+        "type": "Temperature Increase",
+        "temp": 25,
+        "timestamp": "Jun-1-2023 06:05:52 PM"
+    },
+    {
+        "id": 74,
+        "type": "Temperature Increase",
+        "temp": 26,
+        "timestamp": "Jun-1-2023 06:05:53 PM"
+    },
+    {
+        "id": 75,
+        "type": "Temperature Increase",
+        "temp": 27,
+        "timestamp": "Jun-1-2023 06:05:54 PM"
+    },
+    {
+        "id": 76,
+        "type": "Temperature Increase",
+        "temp": 28,
+        "timestamp": "Jun-1-2023 06:05:56 PM"
+    },
+    {
+        "id": 77,
+        "type": "Temperature Increase",
+        "temp": 29,
+        "timestamp": "Jun-1-2023 06:05:57 PM"
+    },
+    {
+        "id": 78,
+        "type": "Temperature Increase",
+        "temp": 30,
+        "timestamp": "Jun-1-2023 06:06:02 PM"
+    },
+    {
+        "id": 79,
+        "type": "Temperature Decrease",
+        "temp": 29,
+        "timestamp": "Jun-1-2023 06:06:06 PM"
+    },
+    {
+        "id": 80,
+        "type": "Temperature Increase",
+        "temp": 30,
+        "timestamp": "Jun-1-2023 06:06:07 PM"
+    },
+    {
+        "id": 81,
+        "type": "Temperature Decrease",
+        "temp": 29,
+        "timestamp": "Jun-1-2023 06:06:35 PM"
+    },
+    {
+        "id": 82,
+        "type": "Temperature Increase",
+        "temp": 30,
+        "timestamp": "Jun-1-2023 06:06:36 PM"
+    },
+    {
+        "id": 83,
+        "type": "Temperature Decrease",
+        "temp": 29,
+        "timestamp": "Jun-1-2023 06:06:48 PM"
+    },
+    {
+        "id": 84,
+        "type": "Temperature Increase",
+        "temp": 30,
+        "timestamp": "Jun-1-2023 06:06:51 PM"
+    },
+    {
+        "id": 85,
+        "type": "Temperature Decrease",
+        "temp": 29,
+        "timestamp": "Jun-1-2023 06:23:21 PM"
+    },
+    {
+        "id": 86,
+        "type": "Temperature Decrease",
+        "temp": 28,
+        "timestamp": "Jun-1-2023 06:23:22 PM"
+    },
+    {
+        "id": 87,
+        "type": "Temperature Decrease",
+        "temp": 27,
+        "timestamp": "Jun-1-2023 06:23:23 PM"
+    },
+    {
+        "id": 88,
+        "type": "Temperature Decrease",
+        "temp": 26,
+        "timestamp": "Jun-1-2023 06:23:23 PM"
+    },
+    {
+        "id": 89,
+        "type": "Temperature Decrease",
+        "temp": 25,
+        "timestamp": "Jun-1-2023 06:23:24 PM"
+    },
+    {
+        "id": 90,
+        "type": "Temperature Decrease",
+        "temp": 24,
+        "timestamp": "Jun-1-2023 06:23:25 PM"
+    },
+    {
+        "id": 91,
+        "type": "Temperature Decrease",
+        "temp": 23,
+        "timestamp": "Jun-1-2023 06:23:25 PM"
+    },
+    {
+        "id": 92,
+        "type": "Temperature Decrease",
+        "temp": 22,
+        "timestamp": "Jun-1-2023 06:23:26 PM"
+    },
+    {
+        "id": 93,
+        "type": "Temperature Decrease",
+        "temp": 21,
+        "timestamp": "Jun-1-2023 06:23:26 PM"
+    },
+    {
+        "id": 94,
+        "type": "Temperature Decrease",
+        "temp": 20,
+        "timestamp": "Jun-1-2023 06:23:27 PM"
+    },
+    {
+        "id": 95,
+        "type": "Temperature Decrease",
+        "temp": 19,
+        "timestamp": "Jun-1-2023 06:23:28 PM"
+    },
+    {
+        "id": 96,
+        "type": "Temperature Decrease",
+        "temp": 18,
+        "timestamp": "Jun-1-2023 06:23:28 PM"
+    },
+    {
+        "id": 97,
+        "type": "Temperature Decrease",
+        "temp": 17,
+        "timestamp": "Jun-1-2023 06:23:29 PM"
+    },
+    {
+        "id": 98,
+        "type": "Temperature Increase",
+        "temp": 18,
+        "timestamp": "Jun-1-2023 06:23:31 PM"
+    },
+    {
+        "id": 99,
+        "type": "Temperature Increase",
+        "temp": 19,
+        "timestamp": "Jun-1-2023 06:23:32 PM"
+    },
+    {
+        "id": 100,
+        "type": "Temperature Increase",
+        "temp": 20,
+        "timestamp": "Jun-1-2023 06:23:33 PM"
+    },
+    {
+        "id": 101,
+        "type": "Temperature Decrease",
+        "temp": 19,
+        "timestamp": "Jun-1-2023 07:58:38 PM"
+    },
+    {
+        "id": 102,
+        "type": "Temperature Increase",
+        "temp": 20,
+        "timestamp": "Jun-2-2023 11:37:38 AM"
+    },
+    {
+        "id": 103,
+        "type": "Temperature Decrease",
+        "temp": 19,
+        "timestamp": "Jun-2-2023 11:37:52 AM"
+    },
+    {
+        "id": 104,
+        "type": "Temperature Decrease",
+        "temp": 18,
+        "timestamp": "Jun-2-2023 11:38:37 AM"
+    },
+    {
+        "id": 105,
+        "type": "Temperature Decrease",
+        "temp": 17,
+        "timestamp": "Jun-2-2023 11:38:39 AM"
+    },
+    {
+        "id": 106,
+        "type": "Temperature Increase",
+        "temp": 18,
+        "timestamp": "Jun-2-2023 05:36:52 PM"
+    },
+    {
+        "id": 107,
+        "type": "Temperature Increase",
+        "temp": 19,
+        "timestamp": "Jun-2-2023 05:36:53 PM"
+    },
+    {
+        "id": 108,
+        "type": "Temperature Increase",
+        "temp": 20,
+        "timestamp": "Jun-2-2023 05:36:54 PM"
+    },
+    {
+        "id": 109,
+        "type": "Temperature Increase",
+        "temp": 21,
+        "timestamp": "Jun-2-2023 05:36:55 PM"
+    },
+    {
+        "id": 110,
+        "type": "Temperature Increase",
+        "temp": 22,
+        "timestamp": "Jun-2-2023 05:36:55 PM"
+    },
+    {
+        "id": 111,
+        "type": "Temperature Increase",
+        "temp": 23,
+        "timestamp": "Jun-2-2023 05:36:56 PM"
+    },
+    {
+        "id": 112,
+        "type": "Temperature Increase",
+        "temp": 24,
+        "timestamp": "Jun-2-2023 05:36:56 PM"
+    },
+    {
+        "id": 113,
+        "type": "Temperature Increase",
+        "temp": 25,
+        "timestamp": "Jun-2-2023 05:36:57 PM"
+    },
+    {
+        "id": 114,
+        "type": "Temperature Increase",
+        "temp": 26,
+        "timestamp": "Jun-2-2023 05:36:57 PM"
+    },
+    {
+        "id": 115,
+        "type": "Temperature Increase",
+        "temp": 27,
+        "timestamp": "Jun-2-2023 05:36:58 PM"
+    },
+    {
+        "id": 116,
+        "type": "Temperature Increase",
+        "temp": 28,
+        "timestamp": "Jun-2-2023 05:36:58 PM"
+    },
+    {
+        "id": 117,
+        "type": "Temperature Increase",
+        "temp": 29,
+        "timestamp": "Jun-2-2023 05:36:59 PM"
+    },
+    {
+        "id": 118,
+        "type": "Temperature Increase",
+        "temp": 30,
+        "timestamp": "Jun-2-2023 05:37:00 PM"
+    },
+    {
+        "id": 119,
+        "type": "Temperature Decrease",
+        "temp": 29,
+        "timestamp": "Jun-2-2023 06:24:06 PM"
+    },
+    {
+        "id": 120,
+        "type": "Temperature Increase",
+        "temp": 30,
+        "timestamp": "Jun-2-2023 06:24:08 PM"
+    },
+    {
+        "id": 121,
+        "type": "Temperature Decrease",
+        "temp": 29,
+        "timestamp": "Jun-2-2023 06:24:14 PM"
+    },
+    {
+        "id": 122,
+        "type": "Temperature Decrease",
+        "temp": 28,
+        "timestamp": "Jun-2-2023 06:24:16 PM"
+    },
+    {
+        "id": 123,
+        "type": "Temperature Increase",
+        "temp": 29,
+        "timestamp": "Jun-2-2023 06:24:17 PM"
+    },
+    {
+        "id": 124,
+        "type": "Temperature Increase",
+        "temp": 30,
+        "timestamp": "Jun-2-2023 06:24:20 PM"
+    },
+    {
+        "id": 125,
+        "type": "Temperature Decrease",
+        "temp": 29,
+        "timestamp": "Jun-2-2023 06:24:45 PM"
+    },
+    {
+        "id": 126,
+        "type": "Temperature Decrease",
+        "temp": 28,
+        "timestamp": "Jun-2-2023 06:24:49 PM"
+    },
+    {
+        "id": 127,
+        "type": "Temperature Decrease",
+        "temp": 27,
+        "timestamp": "Jun-2-2023 06:24:50 PM"
+    },
+    {
+        "id": 128,
+        "type": "Temperature Decrease",
+        "temp": 26,
+        "timestamp": "Jun-2-2023 06:24:52 PM"
+    },
+    {
+        "id": 129,
+        "type": "Temperature Increase",
+        "temp": 27,
+        "timestamp": "Jun-2-2023 06:24:53 PM"
+    },
+    {
+        "id": 130,
+        "type": "Temperature Increase",
+        "temp": 28,
+        "timestamp": "Jun-2-2023 06:24:56 PM"
+    },
+    {
+        "id": 131,
+        "type": "Temperature Decrease",
+        "temp": 27,
+        "timestamp": "Jun-2-2023 06:25:03 PM"
+    },
+    {
+        "id": 132,
+        "type": "Temperature Decrease",
+        "temp": 26,
+        "timestamp": "Jun-2-2023 06:25:05 PM"
+    },
+    {
+        "id": 133,
+        "type": "Temperature Decrease",
+        "temp": 25,
+        "timestamp": "Jun-2-2023 06:25:12 PM"
+    },
+    {
+        "id": 134,
+        "type": "Temperature Decrease",
+        "temp": 24,
+        "timestamp": "Jun-2-2023 06:25:21 PM"
+    },
+    {
+        "id": 135,
+        "type": "Temperature Decrease",
+        "temp": 23,
+        "timestamp": "Jun-2-2023 06:25:38 PM"
+    },
+    {
+        "id": 136,
+        "type": "Temperature Decrease",
+        "temp": 22,
+        "timestamp": "Jun-2-2023 06:25:44 PM"
+    },
+    {
+        "id": 137,
+        "type": "Temperature Decrease",
+        "temp": 21,
+        "timestamp": "Jun-2-2023 06:26:02 PM"
+    },
+    {
+        "id": 138,
+        "type": "Temperature Increase",
+        "temp": 22,
+        "timestamp": "Jun-2-2023 06:26:09 PM"
+    },
+    {
+        "id": 139,
+        "type": "Temperature Increase",
+        "temp": 23,
+        "timestamp": "Jun-2-2023 06:26:16 PM"
+    },
+    {
+        "id": 140,
+        "type": "Temperature Decrease",
+        "temp": 22,
+        "timestamp": "Jun-2-2023 06:26:22 PM"
+    },
+    {
+        "id": 141,
+        "type": "Temperature Decrease",
+        "temp": 21,
+        "timestamp": "Jun-2-2023 06:26:33 PM"
+    },
+    {
+        "id": 142,
+        "type": "Temperature Increase",
+        "temp": 22,
+        "timestamp": "Jun-3-2023 03:09:08 PM"
+    },
+    {
+        "id": 143,
+        "type": "Temperature Increase",
+        "temp": 23,
+        "timestamp": "Jun-3-2023 03:09:15 PM"
+    },
+    {
+        "id": 144,
+        "type": "Temperature Decrease",
+        "temp": 22,
+        "timestamp": "Jun-3-2023 03:09:41 PM"
+    },
+    {
+        "id": 145,
+        "type": "Temperature Decrease",
+        "temp": 21,
+        "timestamp": "Jun-3-2023 03:10:26 PM"
+    },
+    {
+        "id": 146,
+        "type": "Temperature Increase",
+        "temp": 22,
+        "timestamp": "Jun-3-2023 03:10:28 PM"
+    },
+    {
+        "id": 147,
+        "type": "Temperature Increase",
+        "temp": 23,
+        "timestamp": "Jun-3-2023 03:11:15 PM"
+    },
+    {
+        "id": 148,
+        "type": "Temperature Decrease",
+        "temp": 22,
+        "timestamp": "Jun-3-2023 03:13:28 PM"
+    },
+    {
+        "id": 149,
+        "type": "Temperature Increase",
+        "temp": 23,
+        "timestamp": "Jun-3-2023 03:18:40 PM"
+    },
+    {
+        "id": 150,
+        "type": "Temperature Decrease",
+        "temp": 22,
+        "timestamp": "Jun-3-2023 03:18:50 PM"
+    },
+    {
+        "id": 151,
+        "type": "Temperature Decrease",
+        "temp": 21,
+        "timestamp": "Jun-3-2023 03:18:57 PM"
+    },
+    {
+        "id": 152,
+        "type": "Temperature Increase",
+        "temp": 22,
+        "timestamp": "Jun-3-2023 03:19:05 PM"
+    },
+    {
+        "id": 153,
+        "type": "Temperature Increase",
+        "temp": 23,
+        "timestamp": "Jun-3-2023 05:23:19 PM"
+    },
+    {
+        "id": 154,
+        "type": "Temperature Decrease",
+        "temp": 22,
+        "timestamp": "Jun-3-2023 05:23:21 PM"
+    },
+    {
+        "id": 155,
+        "type": "Temperature Decrease",
+        "temp": 21,
+        "timestamp": "Jun-3-2023 05:23:53 PM"
+    },
+    {
+        "id": 156,
+        "type": "Temperature Increase",
+        "temp": 22,
+        "timestamp": "Jun-3-2023 05:23:55 PM"
+    },
+    {
+        "id": 157,
+        "type": "Temperature Increase",
+        "temp": 23,
+        "timestamp": "Jun-3-2023 05:24:00 PM"
+    },
+    {
+        "id": 158,
+        "type": "Temperature Decrease",
+        "temp": 22,
+        "timestamp": "Jun-3-2023 05:24:03 PM"
+    },
+    {
+        "id": 159,
+        "type": "Temperature Decrease",
+        "temp": 21,
+        "timestamp": "Jun-3-2023 05:24:05 PM"
+    },
+    {
+        "id": 160,
+        "type": "Temperature Decrease",
+        "temp": 20,
+        "timestamp": "Jun-3-2023 05:26:28 PM"
+    },
+    {
+        "id": 161,
+        "type": "Temperature Decrease",
+        "temp": 19,
+        "timestamp": "Jun-3-2023 05:26:34 PM"
+    },
+    {
+        "id": 162,
+        "type": "Temperature Decrease",
+        "temp": 18,
+        "timestamp": "Jun-3-2023 05:26:36 PM"
+    },
+    {
+        "id": 163,
+        "type": "Temperature Decrease",
+        "temp": 17,
+        "timestamp": "Jun-3-2023 05:26:38 PM"
+    },
+    {
+        "id": 164,
+        "type": "Temperature Increase",
+        "temp": 18,
+        "timestamp": "Jun-3-2023 05:26:40 PM"
+    },
+    {
+        "id": 165,
+        "type": "Temperature Increase",
+        "temp": 19,
+        "timestamp": "Jun-3-2023 05:26:42 PM"
+    },
+    {
+        "id": 166,
+        "type": "Temperature Increase",
+        "temp": 20,
+        "timestamp": "Jun-3-2023 05:26:44 PM"
+    },
+    {
+        "id": 167,
+        "type": "Temperature Increase",
+        "temp": 21,
+        "timestamp": "Jun-3-2023 05:26:46 PM"
+    },
+    {
+        "id": 168,
+        "type": "Temperature Decrease",
+        "temp": 20,
+        "timestamp": "Jun-3-2023 05:28:25 PM"
+    },
+    {
+        "id": 169,
+        "type": "Temperature Decrease",
+        "temp": 19,
+        "timestamp": "Jun-3-2023 05:28:30 PM"
+    },
+    {
+        "id": 170,
+        "type": "Temperature Decrease",
+        "temp": 18,
+        "timestamp": "Jun-3-2023 05:28:33 PM"
+    },
+    {
+        "id": 171,
+        "type": "Temperature Decrease",
+        "temp": 17,
+        "timestamp": "Jun-5-2023 02:00:22 PM"
+    },
+    {
+        "id": 172,
+        "type": "Temperature Increase",
+        "temp": 18,
+        "timestamp": "Jun-5-2023 02:00:25 PM"
+    },
+    {
+        "id": 173,
+        "type": "Temperature Increase",
+        "temp": 19,
+        "timestamp": "Jun-5-2023 02:00:26 PM"
+    },
+    {
+        "id": 174,
+        "type": "Temperature Increase",
+        "temp": 20,
+        "timestamp": "Jun-5-2023 02:00:27 PM"
+    },
+    {
+        "id": 175,
+        "type": "Temperature Decrease",
+        "temp": 19,
+        "timestamp": "Jun-5-2023 02:08:23 PM"
+    },
+    {
+        "id": 176,
+        "type": "Temperature Increase",
+        "temp": 20,
+        "timestamp": "Jun-5-2023 02:08:26 PM"
+    },
+    {
+        "id": 177,
+        "type": "Temperature Decrease",
+        "temp": 19,
+        "timestamp": "Jun-5-2023 02:09:33 PM"
+    },
+    {
+        "id": 178,
+        "type": "Temperature Increase",
+        "temp": 20,
+        "timestamp": "Jun-5-2023 02:09:35 PM"
+    },
+    {
+        "id": 179,
+        "type": "Temperature Decrease",
+        "temp": 19,
+        "timestamp": "Jun-5-2023 02:32:06 PM"
+    },
+    {
+        "id": 180,
+        "type": "Temperature Increase",
+        "temp": 20,
+        "timestamp": "Jun-5-2023 02:32:07 PM"
+    },
+    {
+        "id": 181,
+        "type": "Temperature Decrease",
+        "temp": 19,
+        "timestamp": "Jun-5-2023 03:29:36 PM"
+    },
+    {
+        "id": 182,
+        "type": "Temperature Decrease",
+        "temp": 18,
+        "timestamp": "Jun-5-2023 03:29:43 PM"
+    },
+    {
+        "id": 183,
+        "type": "Temperature Decrease",
+        "temp": 17,
+        "timestamp": "Jun-5-2023 03:33:12 PM"
+    },
+    {
+        "id": 184,
+        "type": "Temperature Increase",
+        "temp": 18,
+        "timestamp": "Jun-5-2023 03:33:16 PM"
+    },
+    {
+        "id": 185,
+        "type": "Temperature Increase",
+        "temp": 19,
+        "timestamp": "Jun-5-2023 03:33:17 PM"
+    },
+    {
+        "id": 186,
+        "type": "Temperature Increase",
+        "temp": 20,
+        "timestamp": "Jun-5-2023 03:33:17 PM"
+    },
+    {
+        "id": 187,
+        "type": "Temperature Increase",
+        "temp": 21,
+        "timestamp": "Jun-5-2023 03:33:18 PM"
+    },
+    {
+        "id": 188,
+        "type": "Temperature Increase",
+        "temp": 22,
+        "timestamp": "Jun-5-2023 04:29:26 PM"
+    },
+    {
+        "id": 189,
+        "type": "Temperature Decrease",
+        "temp": 21,
+        "timestamp": "Jun-5-2023 04:29:36 PM"
+    },
+    {
+        "id": 190,
+        "type": "Temperature Increase",
+        "temp": 22,
+        "timestamp": "Jun-5-2023 06:12:31 PM"
+    },
+    {
+        "id": 191,
+        "type": "Temperature Increase",
+        "temp": 23,
+        "timestamp": "Jun-5-2023 06:12:32 PM"
+    },
+    {
+        "id": 192,
+        "type": "Temperature Decrease",
+        "temp": 20,
+        "timestamp": "Jun-5-2023 06:13:16 PM"
+    },
+    {
+        "id": 193,
+        "type": "Temperature Increase",
+        "temp": 21,
+        "timestamp": "Jun-8-2023 02:02:18 PM"
+    },
+    {
+        "id": 194,
+        "type": "Temperature Increase",
+        "temp": 22,
+        "timestamp": "Jun-8-2023 02:02:20 PM"
+    },
+    {
+        "id": 195,
+        "type": "Temperature Decrease",
+        "temp": 21,
+        "timestamp": "Jun-8-2023 02:02:29 PM"
+    },
+    {
+        "id": 196,
+        "type": "Temperature Decrease",
+        "temp": 20,
+        "timestamp": "Jun-8-2023 02:02:31 PM"
+    },
+    {
+        "id": 197,
+        "type": "Temperature Decrease",
+        "temp": 19,
+        "timestamp": "Jun-8-2023 02:02:32 PM"
+    },
+    {
+        "id": 198,
+        "type": "Temperature Increase",
+        "temp": 20,
+        "timestamp": "Jun-8-2023 02:09:18 PM"
+    },
+    {
+        "id": 199,
+        "type": "Temperature Decrease",
+        "temp": 19,
+        "timestamp": "Jun-10-2023 03:16:33 PM"
+    },
+    {
+        "id": 200,
+        "type": "Temperature Decrease",
+        "temp": 18,
+        "timestamp": "Jun-10-2023 03:16:34 PM"
+    },
+    {
+        "id": 201,
+        "type": "Temperature Increase",
+        "temp": 19,
+        "timestamp": "Jun-10-2023 03:16:35 PM"
+    },
+    {
+        "id": 202,
+        "type": "Temperature Increase",
+        "temp": 20,
+        "timestamp": "Jun-10-2023 03:16:35 PM"
+    },
+    {
+        "id": 203,
+        "type": "Temperature Decrease",
+        "temp": 19,
+        "timestamp": "Jun-10-2023 03:18:37 PM"
+    },
+    {
+        "id": 204,
+        "type": "Temperature Increase",
+        "temp": 20,
+        "timestamp": "Jun-10-2023 03:18:38 PM"
+    },
+    {
+        "id": 205,
+        "type": "Temperature Increase",
+        "temp": 21,
+        "timestamp": "Jun-10-2023 03:18:39 PM"
+    },
+    {
+        "id": 206,
+        "type": "Temperature Increase",
+        "temp": 22,
+        "timestamp": "Jun-10-2023 03:18:40 PM"
+    },
+    {
+        "id": 207,
+        "type": "Temperature Increase",
+        "temp": 23,
+        "timestamp": "Jun-10-2023 03:18:40 PM"
+    },
+    {
+        "id": 208,
+        "type": "Temperature Decrease",
+        "temp": 22,
+        "timestamp": "Jun-10-2023 03:31:06 PM"
+    },
+    {
+        "id": 209,
+        "type": "Temperature Increase",
+        "temp": 23,
+        "timestamp": "Jun-10-2023 03:39:48 PM"
+    },
+    {
+        "id": 210,
+        "type": "Temperature Increase",
+        "temp": 24,
+        "timestamp": "Jun-10-2023 03:39:49 PM"
+    },
+    {
+        "id": 211,
+        "type": "Temperature Increase",
+        "temp": 25,
+        "timestamp": "Jun-10-2023 03:39:50 PM"
+    },
+    {
+        "id": 212,
+        "type": "Temperature Decrease",
+        "temp": 24,
+        "timestamp": "Jun-10-2023 03:49:26 PM"
+    },
+    {
+        "id": 213,
+        "type": "Temperature Decrease",
+        "temp": 23,
+        "timestamp": "Jun-10-2023 03:49:34 PM"
+    },
+    {
+        "id": 214,
+        "type": "Temperature Increase",
+        "temp": 24,
+        "timestamp": "Jun-10-2023 03:49:35 PM"
+    },
+    {
+        "id": 215,
+        "type": "Temperature Decrease",
+        "temp": 23,
+        "timestamp": "Jun-10-2023 03:49:36 PM"
+    },
+    {
+        "id": 216,
+        "type": "Temperature Increase",
+        "temp": 24,
+        "timestamp": "Jun-10-2023 03:49:36 PM"
+    },
+    {
+        "id": 217,
+        "type": "Temperature Decrease",
+        "temp": 23,
+        "timestamp": "Jun-10-2023 03:49:54 PM"
+    },
+    {
+        "id": 218,
+        "type": "Temperature Decrease",
+        "temp": 22,
+        "timestamp": "Jun-10-2023 03:49:58 PM"
+    },
+    {
+        "id": 219,
+        "type": "Temperature Decrease",
+        "temp": 21,
+        "timestamp": "Jun-10-2023 03:50:00 PM"
+    },
+    {
+        "id": 220,
+        "type": "Temperature Decrease",
+        "temp": 20,
+        "timestamp": "Jun-10-2023 04:19:06 PM"
+    },
+    {
+        "id": 221,
+        "type": "Temperature Increase",
+        "temp": 21,
+        "timestamp": "Jun-14-2023 03:03:06 PM"
+    },
+    {
+        "id": 222,
+        "type": "Temperature Decrease",
+        "temp": 20,
+        "timestamp": "Jun-14-2023 03:03:08 PM"
+    },
+    {
+        "id": 223,
+        "type": "Temperature Decrease",
+        "temp": 19,
+        "timestamp": "Jun-14-2023 03:03:09 PM"
+    },
+    {
+        "id": 224,
+        "type": "Temperature Decrease",
+        "temp": 18,
+        "timestamp": "Jun-14-2023 03:03:10 PM"
+    },
+    {
+        "id": 225,
+        "type": "Temperature Decrease",
+        "temp": 17,
+        "timestamp": "Jun-14-2023 03:03:11 PM"
+    },
+    {
+        "id": 226,
+        "type": "Temperature Increase",
+        "temp": 18,
+        "timestamp": "Jun-14-2023 03:03:17 PM"
+    },
+    {
+        "id": 227,
+        "type": "Temperature Increase",
+        "temp": 19,
+        "timestamp": "Jun-14-2023 03:03:18 PM"
+    },
+    {
+        "id": 228,
+        "type": "Temperature Increase",
+        "temp": 20,
+        "timestamp": "Jun-14-2023 03:03:18 PM"
+    },
+    {
+        "id": 229,
+        "type": "Temperature Increase",
+        "temp": 21,
+        "timestamp": "Jun-14-2023 03:03:19 PM"
+    },
+    {
+        "id": 230,
+        "type": "Temperature Increase",
+        "temp": 22,
+        "timestamp": "Jun-14-2023 03:03:20 PM"
+    },
+    {
+        "id": 231,
+        "type": "Temperature Increase",
+        "temp": 23,
+        "timestamp": "Jun-14-2023 03:03:21 PM"
+    },
+    {
+        "id": 232,
+        "type": "Temperature Decrease",
+        "temp": 22,
+        "timestamp": "Jun-14-2023 03:35:08 PM"
+    },
+    {
+        "id": 233,
+        "type": "Temperature Decrease",
+        "temp": 21,
+        "timestamp": "Jun-14-2023 03:35:09 PM"
+    },
+    {
+        "id": 234,
+        "type": "Temperature Decrease",
+        "temp": 20,
+        "timestamp": "Jun-14-2023 03:35:10 PM"
+    },
+    {
+        "id": 235,
+        "type": "Temperature Decrease",
+        "temp": 19,
+        "timestamp": "Jun-14-2023 03:35:10 PM"
+    },
+    {
+        "id": 236,
+        "type": "Temperature Decrease",
+        "temp": 18,
+        "timestamp": "Jun-14-2023 03:35:11 PM"
+    },
+    {
+        "id": 237,
+        "type": "Temperature Decrease",
+        "temp": 17,
+        "timestamp": "Jun-14-2023 03:35:11 PM"
+    },
+    {
+        "id": 238,
+        "type": "Temperature Increase",
+        "temp": 18,
+        "timestamp": "Jun-14-2023 05:10:43 PM"
+    },
+    {
+        "id": 239,
+        "type": "Temperature Decrease",
+        "temp": 17,
+        "timestamp": "Jun-14-2023 05:10:49 PM"
+    },
+    {
+        "id": 240,
+        "type": "Temperature Increase",
+        "temp": 18,
+        "timestamp": "Jun-14-2023 07:28:54 PM"
+    },
+    {
+        "id": 241,
+        "type": "Temperature Increase",
+        "temp": 19,
+        "timestamp": "Jun-14-2023 07:28:57 PM"
+    },
+    {
+        "id": 242,
+        "type": "Temperature Increase",
+        "temp": 20,
+        "timestamp": "Jun-14-2023 07:28:57 PM"
+    },
+    {
+        "id": 243,
+        "type": "Temperature Increase",
+        "temp": 21,
+        "timestamp": "Jun-14-2023 07:28:57 PM"
+    },
+    {
+        "id": 244,
+        "type": "Temperature Increase",
+        "temp": 22,
+        "timestamp": "Jun-14-2023 07:28:58 PM"
+    },
+    {
+        "id": 245,
+        "type": "Temperature Decrease",
+        "temp": 21,
+        "timestamp": "Jun-15-2023 02:33:50 PM"
+    },
+    {
+        "id": 246,
+        "type": "Temperature Decrease",
+        "temp": 25,
+        "timestamp": "Jun-15-2023 02:33:51 PM"
+    }
+]

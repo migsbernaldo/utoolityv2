@@ -1,0 +1,612 @@
+.command-list {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.command-label {
+  text-align: end;
+}
+
+.degree-decoy {
+  color: #212529 !important;
+}
+
+main {
+  margin-top: 3em !important;
+}
+
+body {
+  display: block;
+  background-image: url(../img/utoolity-bg2.jpg) !important;
+  background-color: rgb(37, 79, 158) !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+.container {
+  height: 100%;
+}
+
+.mobile {
+  display: none !important;
+}
+
+.tool-col {
+  background-color: rgb(20, 59, 141) !important;
+}
+
+.shape {
+  width: 50vw !important;
+  height: 200vh;
+  position: fixed;
+  top: -40vh; /* Adjust the offset from the top */
+  left: -10em; /* Adjust the offset from the left */
+  background-color: white;
+  /* border-radius: 50%; */
+  border: 1em solid #212529;
+  z-index: -1;
+}
+
+.circle {
+  border-radius: 0 200% 200% 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  border-width: 5em !important;
+  border-color: black;
+  padding-top: 4em;
+}
+
+.con-body {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  height: 100vh;
+}
+
+.remote-icon {
+  text-align: center;
+  font-size: 2em !important;
+  margin-top: 1em;
+}
+
+.remote-col {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 30vw;
+  background: none;
+  border: 0 !important;
+  color: white;
+}
+
+button {
+  padding: 0.4em 0.7em !important;
+  border-radius: 1.3em !important;
+  font-size: 2em !important;
+}
+
+.card {
+  background-color: #212529 !important;
+  border-width: 0.3em !important;
+  border-color: white !important;
+  border-radius: 3% !important;
+  margin-right: 5vw;
+  height: 80%;
+  justify-content: center !important;
+}
+
+.card-header {
+  background: none !important;
+  border: 0 !important;
+}
+
+.card-body {
+  display: flex !important;
+  justify-content: center !important;
+  margin-top: 2vh;
+}
+
+.cont-desktop {
+  margin-top: 1em;
+}
+
+#TempDecButton,
+#TempIncButton {
+  padding: 0.3em 1em !important;
+  font-size: 3em !important;
+  border-radius: 0.5em !important;
+  border-color: #212529;
+}
+
+#TempDecButton,
+#TempDecButtonM {
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+}
+
+#TempIncButton,
+#TempIncButtonM {
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+}
+
+#temp-row {
+  display: flex !important;
+  flex-direction: column !important;
+  padding: auto !important;
+}
+
+.btn-light:hover {
+  background-color: rgb(213, 213, 213) !important;
+}
+
+#temp-label {
+  margin: auto !important;
+  width: auto;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+#room-number {
+  font-size: 3em;
+  font-weight: bolder;
+}
+
+#power-control-label {
+  font-size: 2.5em;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+
+#RemoteButton,
+#RemoteButtonM {
+  color: white !important;
+}
+
+#RemoteButton :hover {
+  color: black !important;
+}
+
+#PairingButton,
+#PairingButtonM {
+  background-color: #2a4fc4;
+  color: white;
+}
+
+#PairingButton,
+#PairingButtonM:hover {
+  background-color: #1b3794 !important;
+}
+
+#RemoteButton,
+#PairingButton {
+  padding: 0.2em 0.5em !important;
+  font-size: 3.5em !important;
+  border-radius: 0.5em !important;
+}
+
+#temp-row2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  font-size: 5em;
+  font-weight: bold;
+}
+
+.temp-group {
+  display: flex;
+  justify-content: center;
+}
+
+.remote-main {
+  display: flex !important;
+  flex-wrap: nowrap !important;
+  justify-content: center;
+  /* margin: auto !important; */
+}
+
+#power-col,
+#pair-col {
+  margin: auto;
+  width: auto !important;
+}
+
+#ac-breaker p,
+#light-breaker p {
+  text-align: center;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+#ac-breaker p {
+  margin-bottom: 1em;
+}
+
+#power-label,
+#pair-label {
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+#ac-breaker button,
+#light-breaker button {
+  border-radius: 100% !important;
+  padding: 0.7em 1em !important;
+  font-size: 4em !important;
+}
+
+.modal-dialog {
+  max-width: 80vw !important;
+  border-radius: 10% !important;
+}
+
+.modal-header {
+  background-color: #212529 !important;
+  color: white;
+}
+
+.modal-header button {
+  padding: 0.3em 0.6em !important;
+  border-color: white !important;
+}
+
+#act-logs-modal .modal-body {
+  padding-top: 0;
+}
+
+button.dt-button.buttons-print.btn.btn-primary {
+  padding: 0.3em 0.6em !important;
+  border-radius: 0.4em !important;
+}
+
+#activity-logs thead {
+  background-color: #1e3583 !important;
+  color: white;
+}
+
+#activity-logs {
+  margin-top: 0.5em !important;
+  border-radius: 0.5em !important;
+}
+
+div.dt-buttons {
+  display: flex;
+  float: right !important;
+  align-items: flex-end !important;
+}
+
+.button-col {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.dt-button {
+  margin-bottom: 0 !important;
+}
+
+.ellipsis,
+.dataTables_info,
+label {
+  color: #1e3583 !important;
+}
+
+a.paginate_button.current {
+  background: none !important;
+  background-color: #1e3583 !important;
+  color: white !important;
+}
+
+.dataTables_wrapper.dataTables_paginate.paginate_button {
+  background: none !important;
+  background-color: #1e3583 !important;
+  color: white !important;
+}
+
+button.dt-button.buttons-print.btn.btn-primary {
+  padding: 0.3em 0.8em !important;
+  font-size: 1.5em !important;
+  border-radius: 10% !important;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current,
+.dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+  background: none !important;
+  background-color: #1e3583 !important;
+  color: white !important;
+  border-color: #1e3583;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover,
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover,
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+  background: none !important;
+  background-color: #1e3583 !important;
+  border-color: #1e3583;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button.disabled,
+.dataTables_wrapper .dataTables_paginate .paginate_button.disabled:hover,
+.dataTables_wrapper .dataTables_paginate .paginate_button.disabled:active {
+  background-color: #0c1c52 !important;
+  color: lightgray !important;
+  border-color: #1e3583 !important;
+}
+
+.dataTables_wrapper .dataTables_filter input {
+  background-color: white;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current,
+.dataTables_wrapper .dataTables_paginate .paginate_button.current {
+  color: white !important;
+}
+
+.searchDate {
+  display: flex;
+  flex-direction: row;
+}
+
+.searchContainer {
+  float: left !important;
+  text-align: start !important;
+}
+
+.datePicker {
+  display: flex;
+  align-items: flex-end;
+  margin-left: 4em !important;
+}
+
+#date-range {
+  height: 2.5em;
+}
+
+.create-acc #date-range {
+  display: none !important;
+}
+.drp-buttons button {
+  padding: 0.3em 0.7em !important;
+  font-size: 1em !important;
+  border-radius: 0.3em !important;
+}
+
+#activity-logs_filter label {
+  text-align: start;
+}
+
+button.dt-button.btn.addAccBtn {
+  padding: 0.3em 0.7em !important;
+  font-size: 1.5em !important;
+  border-radius: 20% !important;
+}
+
+@media only screen and (max-width: 960px) {
+  body {
+    background-image: url(../img/utoolity-bg-portrait2.jpg) !important;
+    overflow-x: hidden;
+  }
+
+  .mobile {
+    display: block !important;
+    width: 100%;
+  }
+
+  .mobile.row.h-100.main-container {
+    margin: 0 !important;
+  }
+  .desktop {
+    display: none;
+  }
+
+  .col.col-xs-12.remote-col {
+    padding-right: 0;
+  }
+
+  .remote-col {
+    width: 100% !important;
+    display: flex !important;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .remote-main {
+    display: flex;
+    justify-content: center;
+  }
+
+  .shape {
+    position: fixed;
+    height: 110vh;
+    left: -47vw;
+    top: -35vh !important;
+    width: 200vw !important;
+    border-radius: 200% !important;
+    padding-top: 50%;
+    z-index: auto !important;
+  }
+
+  .card {
+    top: 70vh;
+    margin: auto;
+    width: 50vw;
+  }
+
+  .row.remote-main {
+    margin: auto;
+  }
+
+  .control-row {
+    display: flex;
+    flex-direction: row !important;
+    flex-wrap: nowrap;
+    justify-content: space-between !important;
+    width: 70vw;
+  }
+
+  #ac-breaker,
+  #light-breaker {
+    width: auto;
+  }
+
+  #ac-breaker p,
+  #light-breaker p {
+    color: black;
+  }
+
+  .cont-mobile p {
+    color: black;
+  }
+
+  .degree-decoy {
+    color: white !important;
+  }
+
+  .col.col-xs-12.remote-col {
+    padding: 0;
+  }
+
+  #RemoteButtonM,
+  #PairingButtonM {
+    padding: 0.9em 1.2em !important;
+    font-size: 2.5em !important;
+  }
+
+  .modal-dialog {
+    max-width: 100% !important;
+  }
+
+  .modal-content {
+    height: 60%;
+  }
+  #activity-logs {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+
+  .actlog-container, .create-acc-container {
+    max-height: 400px;
+    overflow: auto;
+  }
+
+  .buttons-print {
+    display: none !important;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+}
+
+@media only screen and (max-width: 460px) {
+  .shape {
+    top: -20vh !important;
+    left: -47vw;
+    height: 95vh;
+  }
+
+  #ac-breaker button,
+  #light-breaker button {
+    padding: 1em 1.3em !important;
+    font-size: 2em !important;
+  }
+
+  .control-row {
+    width: 50%;
+    height: 10em !important;
+  }
+
+  .remote-icon {
+    margin-top: 0;
+  }
+
+  #TempDecButtonM,
+  #TempIncButtonM {
+    padding: 0.3em 0.9em !important;
+    font-size: 2.3em !important;
+  }
+
+  #RemoteButtonM,
+  #PairingButtonM {
+    padding: 0.6em 0.9em !important;
+    font-size: 2em !important;
+  }
+
+  .card {
+    top: 70vh;
+    width: 90vw;
+    text-align: center;
+    justify-content: center;
+  }
+
+  #power-label,
+  #pair-label {
+    font-size: 1.6em;
+  }
+
+  .row.cont-mobile .row {
+    padding-left: 3em !important;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .remote-icon {
+    display: none;
+  }
+
+  .shape {
+    height: 100vh;
+  }
+  .circle {
+    padding-top: 0.3em !important;
+  }
+
+  .circle > .control-row {
+    width: 50%;
+    height: auto !important;
+  }
+
+  #TempDecButtonM,
+  #TempIncButtonM {
+    padding: 0.1em 0.7em !important;
+    font-size: 2em !important;
+  }
+
+  #RemoteButtonM,
+  #PairingButtonM {
+    padding: 0.2em 0.5em !important;
+    font-size: 2em !important;
+    border-radius: 0.5em !important;
+  }
+
+  #ac-breaker button,
+  #light-breaker button {
+    padding: 0.5em 0.8em !important;
+    font-size: 2em !important;
+  }
+
+  #ac-breaker p,
+  #light-breaker p {
+    font-size: 1em !important;
+  }
+
+  #temp-label {
+    font-size: 1em;
+  }
+
+  #temp-row2 p {
+    font-size: 0.5em;
+  }
+
+  .row.cont-mobile .row {
+    padding-left: 2em !important;
+  }
+
+  #activity-logs_wrapper {
+    overflow-y: auto;
+  }
+}
