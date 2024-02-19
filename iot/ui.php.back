@@ -1,0 +1,429 @@
+<?php
+
+include 'sqlConnection.php';
+include 'php_insert/insertAccount.php';
+include 'php/headers.php';
+session_start();
+if (isset($_SESSION['ID']) && isset($_SESSION['Username'])) {
+
+    // User is logged in
+    $userRole = $_SESSION['UserRole'];
+
+    // Check if the user is an admin
+    $isAdmin = ($userRole === 'admin');
+    $isUser = ($userRole === 'user');
+
+?>
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>uTOOLity</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/utoolity-icon.png">
+
+        <link type="text/css" href="assets/css/fontawesome.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/loading.css">
+
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/header.css">
+
+    </head>
+
+    <body>
+        <header class="fixed-top">
+            <div class="collapse bg-dark header-desktop" id="navbarHeader">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-8 col-md-7 button-group">
+                            <h4 class="text-white">About</h4>
+                            <p class="text-muted">
+                                uTOOLity is an innovative IoT device developed as a thesis project by
+                                a team of talented 4th year students pursuing a Bachelor of
+                                Science in Computer Science at Comteq Computer and Business College.
+                                The group of developers behind uTOOLity consists of Clarisse Aratan, Kenneth I. Lopez,
+                                Angelo B. Joaquin, Ronel Rae Rafael, and Kenneth Q. Morga.
+                            </p>
+                        </div>
+                        <div class="col-sm-4 offset-md-1 py-4">
+                            <ul class="list-unstyled command-list">
+                            <?php if ($isAdmin) { ?>
+                                    <li>
+                                        <button id="act-logs" class="btn btn-secondary" title="Activity Logs">
+                                            <a href="activity-logs.php"><i class="fa fa-list"></i></a>
+                                        </button>
+                                    </li>
+
+                                    <li>
+                                        <button id="create-user" class="btn btn-secondary" name="submit" title="Create Users">
+                                            <a href="create-account.php"><i class="fa fa-users"></i></a>
+                                        </button>
+                                    </li>
+                                    <li>
+                                        <form action="http://iot.comteq.edu.ph/iot/logout.php" method="post">
+                                            <button id="userlogout" class="btn btn-secondary" name="submit" title="Sign Out" style="border-top-left-radius: 0 !important; border-bottom-left-radius: 0 !important;" value="Execute PHP File">
+                                                <i class="fa fa-sign-out" aria-hidden="true"></i>
+                                            </button>
+                                        </form>
+                                    </li>
+                                <?php } elseif ($isUser) { ?>
+                                    <li>
+                                        <form action="http://iot.comteq.edu.ph/iot/logout.php" method="post">
+                                            <button id="userlogout" class="btn btn-secondary" name="submit" title="Sign Out" value="Execute PHP File" style="border-top-left-radius: .5em !important; border-bottom-left-radius: .5em !important;">
+                                                <i class="fa fa-sign-out" aria-hidden="true"></i>
+                                            </button>
+                                        </form>
+                                    </li>
+                                <?php } ?>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="collapse bg-dark header-mobile" id="navbarHeader">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 offset-md-1 py-4">
+                            <div id="welcome-user-mobile">
+                                <p class="welcome">Welcome,&nbsp;</p>
+                                <p id="user-mobile"></p>
+                                <p>&excl;</p>
+                            </div>
+                            <ul class="list-unstyled command-list">
+                                <?php if ($isAdmin) { ?>
+                                    <li>
+                                        <button id="act-logs" class="btn btn-secondary" title="Activity Logs">
+                                            <a href="activity-logs.php"><i class="fa fa-list"></i></a>
+                                        </button>
+                                    </li>
+
+                                    <li>
+                                        <button id="create-user" class="btn btn-secondary" name="submit" title="Create Users">
+                                            <a href="create-account.php"><i class="fa fa-users"></i></a>
+                                        </button>
+                                    </li>
+                                    <li>
+                                        <form action="http://iot.comteq.edu.ph/iot/logout.php" method="post">
+                                            <button id="userlogout" class="btn btn-secondary" name="submit" title="Sign Out" style="border-top-left-radius: 0 !important; border-bottom-left-radius: 0 !important;" value="Execute PHP File">
+                                                <i class="fa fa-sign-out" aria-hidden="true"></i>
+                                            </button>
+                                        </form>
+                                    </li>
+                                <?php } elseif ($isUser) { ?>
+                                    <li>
+                                        <form action="http://iot.comteq.edu.ph/iot/logout.php" method="post">
+                                            <button id="userlogout" class="btn btn-secondary" name="submit" title="Sign Out" value="Execute PHP File" style="border-top-left-radius: .5em !important; border-bottom-left-radius: .5em !important;">
+                                                <i class="fa fa-sign-out" aria-hidden="true"></i>
+                                            </button>
+                                        </form>
+                                    </li>
+                                <?php } ?>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="navbar navbar-dark bg-dark box-shadow">
+                <div class="container d-flex justify-content-between">
+                    <a href="#" class="navbar-brand d-flex align-items-center">
+                        <img src="assets/img/utoolity-logo.png" alt="uTOOLity" width="250px">
+                        <!-- <strong>uTOOLity</strong> -->
+                    </a>
+                    <ul class="list-unstyled command-list">
+                        <li id="welcome-user-desktop">
+                            <p class="welcome">Welcome,&nbsp;</p>
+                            <p id="user"></p>
+                            <p>&excl;</p>
+                        </li>
+
+                        <li>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <main role="main" class="con-body">
+            <!-- <div class="row h-100 main-container">
+                <div class="shape"></div>
+                <div class="col-5 control-col circle">
+                    <p id="power-label">Power Control</p>
+                    <div id="ac-breaker">
+                        <form action="http://iot.comteq.edu.ph/iot/php_insert/insertACU.php" method="post">
+                            <button id="ACUBreakerButton" class="btn btn-success" name="submit" value="Execute PHP File"><i class="fa fa-bolt" aria-hidden="true"></i></button>
+                        </form>
+                        <p>ACU</p>
+                    </div>
+
+                    <div id="light-breaker">
+                        <form action="http://iot.comteq.edu.ph/iot/php_insert/insertLights.php" method="post">
+                            <button id="LightBreakerButton" class="btn btn-success" name="submit" value="Execute PHP File"><i class="fa fa-lightbulb" aria-hidden="true"></i></button>
+                        </form>
+                        <p>Lights</p>
+                    </div>
+                </div>
+                <div class="col col-xs-12 remote-col">
+                    <div class="control-col-mobile circle">
+                        <div class="row control-row">
+                            <div id="ac-breaker">
+                                <form action="http://iot.comteq.edu.ph/iot/php_insert/insertACU.php" method="post">
+                                    <button id="ACUBreakerButtonM" class="btn btn-success" name="submit" value="Execute PHP File"><i class="fa fa-bolt" aria-hidden="true"></i></button>
+                                </form>
+                                <p>ACU</p>
+                            </div>
+                            <div id="light-breaker">
+                                <form action="http://iot.comteq.edu.ph/iot/php_insert/insertLights.php" method="post">
+                                    <button id="LightBreakerButtonM" class="btn btn-success" name="submit" value="Execute PHP File"><i class="fa fa-lightbulb" aria-hidden="true"></i></button>
+                                </form>
+                                <p>Lights</p>
+                            </div>
+                        </div>
+                        <div class="row cont-mobile">
+                            <p class="remote-icon"><i class="fa fa-tower-broadcast"></i></p>
+                            <div class="row">
+                                <p id="temp-label">Temperature</p>
+                                <div id="temp-row2">
+                                    <p class="degree-decoy">°</p>
+                                    <p id="temp-val-m"></p>
+                                    <p>°</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="btn-group temp-group">
+                                    <form action="http://iot.comteq.edu.ph/iot/php/tempDec.php" method="post">
+                                        <button id="TempDecButtonM" class="btn btn-dark" name="submit" value="Execute PHP File"><i class="fa fa-solid fa-caret-down"></i></button>
+                                    </form>
+                                    <form action="http://iot.comteq.edu.ph/iot/php/tempInc.php" method="post">
+                                        <button id="TempIncButtonM" class="btn btn-dark" name="submit" value="Execute PHP File"><i class="fa fa-solid fa-caret-up"></i></button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div id="temp-row" class="card-header">
+                            <div class="cont-desktop">
+                                <p class="remote-icon"><i class="fa fa-tower-broadcast"></i></p>
+                                <div class="row">
+                                    <p id="temp-label">Temperature</p>
+                                    <div id="temp-row2">
+                                        <p class="degree-decoy">°</p>
+                                        <p id="temp-val-d"></p>
+                                        <p>°</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="btn-group temp-group">
+                                        <form action="http://iot.comteq.edu.ph/iot/php/tempDec.php" method="post">
+                                            <button id="TempDecButton" class="btn btn-light" name="submit" value="Execute PHP File"><i class="fa fa-solid fa-caret-down"></i></button>
+                                        </form>
+                                        <form action="http://iot.comteq.edu.ph/iot/php/tempInc.php" method="post">
+                                            <button id="TempIncButton" class="btn btn-light" name="submit" value="Execute PHP File"><i class="fa fa-solid fa-caret-up"></i></button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body remote-col">
+                            <div class="row remote-main">
+                                <div id="power-col">
+                                    <form action="http://iot.comteq.edu.ph/iot/php_insert/insertRemote.php" method="post">
+                                        <button id="RemoteButton" class="btn btn-light" name="submit" value="Execute PHP File"><i class="fa fa-solid fa-power-off"></i></button>
+                                    </form>
+                                    <p id="power-label">Power</p>
+                                </div>
+                                <div id="pair-col">
+                                    <button id="PairingButton" class="btn btn-light" document.body.style.pointerEvents='none' ;"><i class='fa fa-sync fa-rotate-90'></i>
+                                    </button>
+                                    <div id="loading-container" style="display: none;">
+                                        <div class="loading-animation">
+                                            <div class="loading-icon">
+                                                <img src="assets/img/utoolity-icon.png" alt="">
+                                                <p>Pairing...</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p id="pair-label">Pair</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+
+            <div class="desktop row h-100 ">
+                <div class="shape"></div>
+                <div class="col-5 control-col circle">
+                    <p id="power-label">Power Control</p>
+                    <div id="ac-breaker">
+                        <form action="http://iot.comteq.edu.ph/iot/php_insert/insertACU.php" method="post">
+                            <button id="ACUBreakerButton" class="btn btn-success" name="submit" value="Execute PHP File"><i class="fa fa-bolt" aria-hidden="true"></i></button>
+                        </form>
+                        <p>ACU</p>
+                    </div>
+
+                    <div id="light-breaker">
+                        <form action="http://iot.comteq.edu.ph/iot/php_insert/insertLights.php" method="post">
+                            <button id="LightBreakerButton" class="btn btn-success" name="submit" value="Execute PHP File"><i class="fa fa-lightbulb" aria-hidden="true"></i></button>
+                        </form>
+                        <p>Lights</p>
+                    </div>
+                </div>
+                <div class="col col-xs-12 remote-col">
+                    <div class="card">
+                        <div id="temp-row" class="card-header">
+                            <div class="cont-desktop">
+                                <p class="remote-icon"><i class="fa fa-tower-broadcast"></i></p>
+                                <div class="row">
+                                    <p id="temp-label">Temperature</p>
+                                    <div id="temp-row2">
+                                        <p class="degree-decoy">°</p>
+                                        <p id="temp-val-d"></p>
+                                        <p>°</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="btn-group temp-group">
+                                        <form action="http://iot.comteq.edu.ph/iot/php/tempDec.php" method="post">
+                                            <button id="TempDecButton" class="btn btn-light" name="submit" value="Execute PHP File"><i class="fa fa-solid fa-caret-down"></i></button>
+                                        </form>
+                                        <form action="http://iot.comteq.edu.ph/iot/php/tempInc.php" method="post">
+                                            <button id="TempIncButton" class="btn btn-light" name="submit" value="Execute PHP File"><i class="fa fa-solid fa-caret-up"></i></button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body remote-col">
+                            <div class="row remote-main">
+                                <div id="power-col">
+                                    <form action="http://iot.comteq.edu.ph/iot/php_insert/insertRemote.php" method="post">
+                                        <button id="RemoteButton" class="btn btn-light" name="submit" value="Execute PHP File"><i class="fa fa-solid fa-power-off"></i></button>
+                                    </form>
+                                    <p id="power-label">Power</p>
+                                </div>
+                                <div id="pair-col">
+                                    <button id="PairingButton" class="btn btn-light" document.body.style.pointerEvents='none' ;"><i class='fa fa-sync fa-rotate-90'></i>
+                                    </button>
+                                    <div id="loading-container" style="display: none;">
+                                        <div class="loading-animation">
+                                            <div class="loading-icon">
+                                                <img src="assets/img/utoolity-icon.png" alt="">
+                                                <p>Pairing...</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p id="pair-label">Pair</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mobile row h-100 main-container">
+                <div class="col col-xs-12 remote-col">
+                    <div class="shape row">
+                        <div class="control-col-mobile circle">
+                            <div class="row control-row">
+                                <div id="ac-breaker">
+                                    <form action="http://iot.comteq.edu.ph/iot/php_insert/insertACU.php" method="post">
+                                        <button id="ACUBreakerButtonM" class="btn btn-success" name="submit" value="Execute PHP File"><i class="fa fa-bolt" aria-hidden="true"></i></button>
+                                    </form>
+                                    <p>ACU</p>
+                                </div>
+                                <div id="light-breaker">
+                                    <form action="http://iot.comteq.edu.ph/iot/php_insert/insertLights.php" method="post">
+                                        <button id="LightBreakerButtonM" class="btn btn-success" name="submit" value="Execute PHP File"><i class="fa fa-lightbulb" aria-hidden="true"></i></button>
+                                    </form>
+                                    <p>Lights</p>
+                                </div>
+                            </div>
+                            <div class="row cont-mobile">
+                                <p class="remote-icon"><i class="fa fa-tower-broadcast"></i></p>
+                                <div class="row">
+                                    <p id="temp-label">Temperature</p>
+                                    <div id="temp-row2">
+                                        <p class="degree-decoy">°</p>
+                                        <p id="temp-val-m"></p>
+                                        <p>°</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="btn-group temp-group">
+                                        <form action="http://iot.comteq.edu.ph/iot/php/tempDec.php" method="post">
+                                            <button id="TempDecButtonM" class="btn btn-dark" name="submit" value="Execute PHP File"><i class="fa fa-solid fa-caret-down"></i></button>
+                                        </form>
+                                        <form action="http://iot.comteq.edu.ph/iot/php/tempInc.php" method="post">
+                                            <button id="TempIncButtonM" class="btn btn-dark" name="submit" value="Execute PHP File"><i class="fa fa-solid fa-caret-up"></i></button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body remote-col">
+                            <div class="row remote-main">
+                                <div id="power-col">
+                                    <form action="http://iot.comteq.edu.ph/iot/php_insert/insertRemote.php" method="post">
+                                        <button id="RemoteButtonM" class="btn btn-light" name="submit" value="Execute PHP File"><i class="fa fa-solid fa-power-off"></i></button>
+                                    </form>
+                                    <p id="power-label">Power</p>
+                                </div>
+                                <div id="pair-col">
+                                    <button id="PairingButtonM" class="btn btn-light" document.body.style.pointerEvents='none' ;"><i class='fa fa-sync fa-rotate-90'></i>
+                                    </button>
+                                    <div id="loading-container" style="display: none;">
+                                        <div class="loading-animation">
+                                            <div class="loading-icon">
+                                                <img src="assets/img/utoolity-icon.png" alt="">
+                                                <p>Pairing...</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p id="pair-label">Pair</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                            <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            ...
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <script src="assets/js/bootstrap.bundle.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="assets/fontawesome-free-6.4.0-web/js/all.js"></script>
+        <script src="assets/js/command.js"></script>
+    </body>
+
+    </html>
+<?php
+} else {
+
+    header("Location: login.php");
+    exit();
+}
+?>
