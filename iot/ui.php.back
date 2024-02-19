@@ -63,7 +63,7 @@ if (isset($_SESSION['ID']) && isset($_SESSION['Username'])) {
                                         </button>
                                     </li>
                                     <li>
-                                        <form action="http://iot.comteq.edu.ph/iot/logout.php" method="post">
+                                        <form action="logout.php" method="post">
                                             <button id="userlogout" class="btn btn-secondary" name="submit" title="Sign Out" style="border-top-left-radius: 0 !important; border-bottom-left-radius: 0 !important;" value="Execute PHP File">
                                                 <i class="fa fa-sign-out" aria-hidden="true"></i>
                                             </button>
@@ -71,7 +71,7 @@ if (isset($_SESSION['ID']) && isset($_SESSION['Username'])) {
                                     </li>
                                 <?php } elseif ($isUser) { ?>
                                     <li>
-                                        <form action="http://iot.comteq.edu.ph/iot/logout.php" method="post">
+                                        <form action="logout.php" method="post">
                                             <button id="userlogout" class="btn btn-secondary" name="submit" title="Sign Out" value="Execute PHP File" style="border-top-left-radius: .5em !important; border-bottom-left-radius: .5em !important;">
                                                 <i class="fa fa-sign-out" aria-hidden="true"></i>
                                             </button>
@@ -107,7 +107,7 @@ if (isset($_SESSION['ID']) && isset($_SESSION['Username'])) {
                                         </button>
                                     </li>
                                     <li>
-                                        <form action="http://iot.comteq.edu.ph/iot/logout.php" method="post">
+                                        <form action="logout.php" method="post">
                                             <button id="userlogout" class="btn btn-secondary" name="submit" title="Sign Out" style="border-top-left-radius: 0 !important; border-bottom-left-radius: 0 !important;" value="Execute PHP File">
                                                 <i class="fa fa-sign-out" aria-hidden="true"></i>
                                             </button>
@@ -115,7 +115,7 @@ if (isset($_SESSION['ID']) && isset($_SESSION['Username'])) {
                                     </li>
                                 <?php } elseif ($isUser) { ?>
                                     <li>
-                                        <form action="http://iot.comteq.edu.ph/iot/logout.php" method="post">
+                                        <form action="logout.php" method="post">
                                             <button id="userlogout" class="btn btn-secondary" name="submit" title="Sign Out" value="Execute PHP File" style="border-top-left-radius: .5em !important; border-bottom-left-radius: .5em !important;">
                                                 <i class="fa fa-sign-out" aria-hidden="true"></i>
                                             </button>
@@ -157,14 +157,14 @@ if (isset($_SESSION['ID']) && isset($_SESSION['Username'])) {
                 <div class="col-5 control-col circle">
                     <p id="power-label">Power Control</p>
                     <div id="ac-breaker">
-                        <form action="http://iot.comteq.edu.ph/iot/php_insert/insertACU.php" method="post">
+                        <form action="php_insert/insertACU.php" method="post">
                             <button id="ACUBreakerButton" class="btn btn-success" name="submit" value="Execute PHP File"><i class="fa fa-bolt" aria-hidden="true"></i></button>
                         </form>
                         <p>ACU</p>
                     </div>
 
                     <div id="light-breaker">
-                        <form action="http://iot.comteq.edu.ph/iot/php_insert/insertLights.php" method="post">
+                        <form action="php_insert/insertLights.php" method="post">
                             <button id="LightBreakerButton" class="btn btn-success" name="submit" value="Execute PHP File"><i class="fa fa-lightbulb" aria-hidden="true"></i></button>
                         </form>
                         <p>Lights</p>
@@ -174,13 +174,13 @@ if (isset($_SESSION['ID']) && isset($_SESSION['Username'])) {
                     <div class="control-col-mobile circle">
                         <div class="row control-row">
                             <div id="ac-breaker">
-                                <form action="http://iot.comteq.edu.ph/iot/php_insert/insertACU.php" method="post">
+                                <form action="php_insert/insertACU.php" method="post">
                                     <button id="ACUBreakerButtonM" class="btn btn-success" name="submit" value="Execute PHP File"><i class="fa fa-bolt" aria-hidden="true"></i></button>
                                 </form>
                                 <p>ACU</p>
                             </div>
                             <div id="light-breaker">
-                                <form action="http://iot.comteq.edu.ph/iot/php_insert/insertLights.php" method="post">
+                                <form action="php_insert/insertLights.php" method="post">
                                     <button id="LightBreakerButtonM" class="btn btn-success" name="submit" value="Execute PHP File"><i class="fa fa-lightbulb" aria-hidden="true"></i></button>
                                 </form>
                                 <p>Lights</p>
@@ -198,10 +198,10 @@ if (isset($_SESSION['ID']) && isset($_SESSION['Username'])) {
                             </div>
                             <div class="row">
                                 <div class="btn-group temp-group">
-                                    <form action="http://iot.comteq.edu.ph/iot/php/tempDec.php" method="post">
+                                    <form action="php/tempDec.php" method="post">
                                         <button id="TempDecButtonM" class="btn btn-dark" name="submit" value="Execute PHP File"><i class="fa fa-solid fa-caret-down"></i></button>
                                     </form>
-                                    <form action="http://iot.comteq.edu.ph/iot/php/tempInc.php" method="post">
+                                    <form action="php/tempInc.php" method="post">
                                         <button id="TempIncButtonM" class="btn btn-dark" name="submit" value="Execute PHP File"><i class="fa fa-solid fa-caret-up"></i></button>
                                     </form>
                                 </div>
@@ -222,10 +222,10 @@ if (isset($_SESSION['ID']) && isset($_SESSION['Username'])) {
                                 </div>
                                 <div class="row">
                                     <div class="btn-group temp-group">
-                                        <form action="http://iot.comteq.edu.ph/iot/php/tempDec.php" method="post">
+                                        <form action="php/tempDec.php" method="post">
                                             <button id="TempDecButton" class="btn btn-light" name="submit" value="Execute PHP File"><i class="fa fa-solid fa-caret-down"></i></button>
                                         </form>
-                                        <form action="http://iot.comteq.edu.ph/iot/php/tempInc.php" method="post">
+                                        <form action="php/tempInc.php" method="post">
                                             <button id="TempIncButton" class="btn btn-light" name="submit" value="Execute PHP File"><i class="fa fa-solid fa-caret-up"></i></button>
                                         </form>
                                     </div>
@@ -235,7 +235,7 @@ if (isset($_SESSION['ID']) && isset($_SESSION['Username'])) {
                         <div class="card-body remote-col">
                             <div class="row remote-main">
                                 <div id="power-col">
-                                    <form action="http://iot.comteq.edu.ph/iot/php_insert/insertRemote.php" method="post">
+                                    <form action="php_insert/insertRemote.php" method="post">
                                         <button id="RemoteButton" class="btn btn-light" name="submit" value="Execute PHP File"><i class="fa fa-solid fa-power-off"></i></button>
                                     </form>
                                     <p id="power-label">Power</p>
@@ -264,14 +264,14 @@ if (isset($_SESSION['ID']) && isset($_SESSION['Username'])) {
                 <div class="col-5 control-col circle">
                     <p id="power-label">Power Control</p>
                     <div id="ac-breaker">
-                        <form action="http://iot.comteq.edu.ph/iot/php_insert/insertACU.php" method="post">
+                        <form action="php_insert/insertACU.php" method="post">
                             <button id="ACUBreakerButton" class="btn btn-success" name="submit" value="Execute PHP File"><i class="fa fa-bolt" aria-hidden="true"></i></button>
                         </form>
                         <p>ACU</p>
                     </div>
 
                     <div id="light-breaker">
-                        <form action="http://iot.comteq.edu.ph/iot/php_insert/insertLights.php" method="post">
+                        <form action="php_insert/insertLights.php" method="post">
                             <button id="LightBreakerButton" class="btn btn-success" name="submit" value="Execute PHP File"><i class="fa fa-lightbulb" aria-hidden="true"></i></button>
                         </form>
                         <p>Lights</p>
@@ -292,10 +292,10 @@ if (isset($_SESSION['ID']) && isset($_SESSION['Username'])) {
                                 </div>
                                 <div class="row">
                                     <div class="btn-group temp-group">
-                                        <form action="http://iot.comteq.edu.ph/iot/php/tempDec.php" method="post">
+                                        <form action="php/tempDec.php" method="post">
                                             <button id="TempDecButton" class="btn btn-light" name="submit" value="Execute PHP File"><i class="fa fa-solid fa-caret-down"></i></button>
                                         </form>
-                                        <form action="http://iot.comteq.edu.ph/iot/php/tempInc.php" method="post">
+                                        <form action="php/tempInc.php" method="post">
                                             <button id="TempIncButton" class="btn btn-light" name="submit" value="Execute PHP File"><i class="fa fa-solid fa-caret-up"></i></button>
                                         </form>
                                     </div>
@@ -305,7 +305,7 @@ if (isset($_SESSION['ID']) && isset($_SESSION['Username'])) {
                         <div class="card-body remote-col">
                             <div class="row remote-main">
                                 <div id="power-col">
-                                    <form action="http://iot.comteq.edu.ph/iot/php_insert/insertRemote.php" method="post">
+                                    <form action="php_insert/insertRemote.php" method="post">
                                         <button id="RemoteButton" class="btn btn-light" name="submit" value="Execute PHP File"><i class="fa fa-solid fa-power-off"></i></button>
                                     </form>
                                     <p id="power-label">Power</p>
@@ -335,13 +335,13 @@ if (isset($_SESSION['ID']) && isset($_SESSION['Username'])) {
                         <div class="control-col-mobile circle">
                             <div class="row control-row">
                                 <div id="ac-breaker">
-                                    <form action="http://iot.comteq.edu.ph/iot/php_insert/insertACU.php" method="post">
+                                    <form action="php_insert/insertACU.php" method="post">
                                         <button id="ACUBreakerButtonM" class="btn btn-success" name="submit" value="Execute PHP File"><i class="fa fa-bolt" aria-hidden="true"></i></button>
                                     </form>
                                     <p>ACU</p>
                                 </div>
                                 <div id="light-breaker">
-                                    <form action="http://iot.comteq.edu.ph/iot/php_insert/insertLights.php" method="post">
+                                    <form action="php_insert/insertLights.php" method="post">
                                         <button id="LightBreakerButtonM" class="btn btn-success" name="submit" value="Execute PHP File"><i class="fa fa-lightbulb" aria-hidden="true"></i></button>
                                     </form>
                                     <p>Lights</p>
@@ -359,10 +359,10 @@ if (isset($_SESSION['ID']) && isset($_SESSION['Username'])) {
                                 </div>
                                 <div class="row">
                                     <div class="btn-group temp-group">
-                                        <form action="http://iot.comteq.edu.ph/iot/php/tempDec.php" method="post">
+                                        <form action="php/tempDec.php" method="post">
                                             <button id="TempDecButtonM" class="btn btn-dark" name="submit" value="Execute PHP File"><i class="fa fa-solid fa-caret-down"></i></button>
                                         </form>
-                                        <form action="http://iot.comteq.edu.ph/iot/php/tempInc.php" method="post">
+                                        <form action="php/tempInc.php" method="post">
                                             <button id="TempIncButtonM" class="btn btn-dark" name="submit" value="Execute PHP File"><i class="fa fa-solid fa-caret-up"></i></button>
                                         </form>
                                     </div>
@@ -374,7 +374,7 @@ if (isset($_SESSION['ID']) && isset($_SESSION['Username'])) {
                         <div class="card-body remote-col">
                             <div class="row remote-main">
                                 <div id="power-col">
-                                    <form action="http://iot.comteq.edu.ph/iot/php_insert/insertRemote.php" method="post">
+                                    <form action="php_insert/insertRemote.php" method="post">
                                         <button id="RemoteButtonM" class="btn btn-light" name="submit" value="Execute PHP File"><i class="fa fa-solid fa-power-off"></i></button>
                                     </form>
                                     <p id="power-label">Power</p>

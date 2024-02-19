@@ -20,6 +20,6 @@ $sql2 = "INSERT INTO logs(UserID, ActivityID, LogText, Timestamp, Date, Time)
 VALUES ($IDS, $activityID, 'success', NOW(), CURDATE(), CURTIME())";
 $conn->query($sql2);
 // var_dump($sql2);
-echo '<script>window.location.replace("http://iot.comteq.edu.ph/iot/ui.php");</script>'; 
+echo '<script>window.location.replace("ui.php");</script>'; 
 $conn->close();
 ?>

@@ -113,7 +113,7 @@ function toggleButton(button) {
 }
 
 ////////////////////////////////////////coloring based on last state data//////////////////////////////////////////////////////////////
-fetch("http://iot.comteq.edu.ph/iot/php_color/acu.php")
+fetch("php_color/acu.php")
   .then(response => response.text())
   .then(data => {
     const state = data.trim().toLowerCase();
@@ -141,7 +141,7 @@ fetch("http://iot.comteq.edu.ph/iot/php_color/acu.php")
   })
   .catch(error => console.error(error));
 
-fetch("http://iot.comteq.edu.ph/iot/php_color/lights.php")
+fetch("php_color/lights.php")
   .then(response => response.text())
   .then(data => {
     const state = data.trim().toLowerCase();
@@ -154,7 +154,7 @@ fetch("http://iot.comteq.edu.ph/iot/php_color/lights.php")
   })
   .catch(error => console.error(error));
 
-fetch("http://iot.comteq.edu.ph/iot/php_color/remote.php")
+fetch("php_color/remote.php")
   .then(response => response.text())
   .then(data => {
     const state = data.trim().toLowerCase();
@@ -186,7 +186,7 @@ fetch("http://iot.comteq.edu.ph/iot/php_color/remote.php")
   .catch(error => console.error(error));
 
 //////////////////////////////////////////temparature based on last data///////////////////////////////////////////////////////////
-const tempUrl = "http://iot.comteq.edu.ph/iot/php_color/temp-value.php";
+const tempUrl = "php_color/temp-value.php";
 fetch(tempUrl)
   .then(response => response.text())
   .then(data => {
@@ -213,7 +213,7 @@ fetch(tempUrl)
 
 //////////////////////////////////////////this is for generating logs /////////////////////////////////////////////////////
 function downloadCSV() {
-  $.getJSON("http://iot.comteq.edu.ph/iot/json/all.json", function(data) {
+  $.getJSON("json/all.json", function(data) {
     var csvContent =
       "data:text/csv;charset=utf-8," + Object.keys(data[0]).join(",") + "\r\n";
 
@@ -237,12 +237,12 @@ function showLoadingAnimation() {
   loadingContainer.style.display = "flex";
   setTimeout(function() {
     loadingContainer.style.display = "none";
-    window.location.replace("http://iot.comteq.edu.ph/iot/ui.php");
+    window.location.replace("ui.php");
   }, 16000); // 15 seconds
 }
 
 //////////////////////////////////full name of the user//////////////////////////////////////////////////////////////////////////////////////////
-const fullname = "http://iot.comteq.edu.ph/iot/php_color/fname.php";
+const fullname = "php_color/fname.php";
 fetch(fullname)
   .then(response => response.text())
   .then(data => {
