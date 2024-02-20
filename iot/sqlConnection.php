@@ -2,8 +2,8 @@
 include 'php/headers.php';
     // Database credentials
     $servername = "localhost";
-    $username = "root";
-    $password = "";
+    $username = "utoolityv2";
+    $password = "Ccbc-2024";
     $dbname = "utoolity";
     // Establish the database connection
     $conn = new mysqli($servername, $username, $password, $dbname);
