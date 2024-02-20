@@ -1,5 +1,5 @@
 <?php
-include 'sqlConnection.php';
+include '../sqlConnection.php';
 include 'php/headers.php';
 $sql = "SELECT ActivityID FROM logs WHERE ActivityID IN (5, 6) ORDER BY Timestamp DESC LIMIT 1"; // Modify the condition as needed
 $result = mysqli_query($conn, $sql);

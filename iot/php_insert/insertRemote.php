@@ -1,6 +1,6 @@
 <?php
 session_start();
-include 'sqlConnection.php';
+include '../sqlConnection.php';
 $IDS = $_SESSION['ID'];
 $activityID = 5;
 // Query to check if there is any record with ActivityID = 1 or 2

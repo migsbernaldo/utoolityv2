@@ -1,6 +1,6 @@
 <?php
 session_start();
-include 'sqlConnection.php';
+include '../sqlConnection.php';
 include 'php/headers.php';
 if (isset($_SESSION['ID'])) {
     $ID = $_SESSION['ID'];

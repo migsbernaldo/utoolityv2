@@ -1,4 +1,4 @@
 <?php
-header("Location: create-account.php");
+header("Location: ../create-account.php");
 exit();
 ?>

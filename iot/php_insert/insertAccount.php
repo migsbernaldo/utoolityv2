@@ -1,5 +1,5 @@
 <?php
-include 'sqlConnection.php';
+include '../sqlConnection.php';
 function validate($data)
 {
     return htmlspecialchars(stripslashes(trim($data)));

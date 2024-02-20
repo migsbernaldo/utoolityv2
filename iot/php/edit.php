@@ -1,5 +1,5 @@
 <?php
-include 'sqlConnection.php';
+include '../sqlConnection.php';
 if (isset($_GET['userID'])) {
     $userID = $_GET['userID'];
     // Perform the database query

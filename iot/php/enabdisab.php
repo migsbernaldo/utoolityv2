@@ -1,5 +1,5 @@
 <?php
-include 'sqlConnection.php'; // Include your database connection file
+include '../sqlConnection.php'; // Include your database connection file
 if (isset($_POST['userID'])) {
     $userID = $_POST['userID'];
     // Check the current status of the user

@@ -1,6 +1,6 @@
 <?php
 // Assuming you have established a database connection
-include 'sqlConnection.php'; // Include your database connection file
+include '../sqlConnection.php'; // Include your database connection file
 // Retrieve the username from the AJAX request
 $username = $_POST['username'];
 // Perform a database query to check if the username exists

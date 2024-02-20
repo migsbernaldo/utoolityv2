@@ -1,5 +1,5 @@
 <?php
-include 'sqlConnection.php';
+include '../sqlConnection.php';
 include 'php/headers.php';
 // Check if the connection to the database was successful
 if ($conn) {

@@ -1,5 +1,5 @@
 <?php
-include 'sqlConnection.php';
+include '../sqlConnection.php';
 include 'php/headers.php';
 $sql = "SELECT VALUE FROM temperature WHERE ID = 1";
 $result = $conn->query($sql);
