@@ -15,7 +15,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET' && isset($_GET['confirm'])) {
         createUserAccount($username, $password, $fullname, $userRole);
     } else {
         // Handle cancellation
-        header("Location: ui.php");
+        header("Location: ../ui.php");
         exit();
     }
 }
@@ -50,7 +50,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['username'], $_POST['p
             echo <<<HTML
             <script>
                 var confirmed = confirm("Are you sure you want to create this account?");
-                window.location.href = "ui.php?confirm=" + (confirmed ? "1" : "0") +
+                window.location.href = "../ui.php?confirm=" + (confirmed ? "1" : "0") +
                     "&username={$username}&fullname={$fullname}&userRole={$userRole}";
             </script>
             HTML;
@@ -67,7 +67,7 @@ function createUserAccount($username, $password, $fullname, $userRole)
             VALUES ('$username', '$hashedPassword', '$fullname', '$userRole', 1)";
     if ($conn->query($sql) === TRUE) {
         session_destroy(); // Clean up stored password in session
-        header("Location: ui.php");
+        header("Location: ../ui.php");
         exit();
     } else {
         echo "Error: " . $conn->error;

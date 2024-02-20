@@ -24,7 +24,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
     if ($conn->query($sql) === TRUE) {
         echo "$UserID. Record updated successfully";
-        header("Location: ui.php");
+        header("Location: ../ui.php");
     } else {
         echo "Error updating record: " . $conn->error;
     }

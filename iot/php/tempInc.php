@@ -21,7 +21,7 @@ if ($conn) {
     $sql2 = "INSERT INTO logs(UserID, ActivityID, LogText, Timestamp, Date, Time)
     VALUES ($IDS, $activityID, 'success', NOW(), CURDATE(), CURTIME())";
     $conn->query($sql2);
-    echo "<script>window.location.replace('ui.php');</script>";
+    echo "<script>window.location.replace('../ui.php');</script>";
 } else {
     // Display an error message
     echo "Error connecting to the database";
