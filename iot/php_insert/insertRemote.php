@@ -32,7 +32,8 @@ if ($result->num_rows > 0) {
 
     } else {
         $activityID = 5;
-
+        
+        $arduino_ip = '192.168.1.120';
         $data = 'Power: 1';
 
         // Create a TCP/IP socket connection to the Arduino
