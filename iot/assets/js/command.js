@@ -1,12 +1,12 @@
-fetch("http://iot.comteq.edu.ph")
+fetch("192.168.1.201")
   .then(response => {
     if (response.ok) {
-      // http://iot.comteq.edu.ph is available
-      console.log("http://iot.comteq.edu.ph:50001 is working");
+      // 192.168.1.201 is available
+      console.log("192.168.1.201 is working");
       // Perform any desired actions
     } else {
-      // http://iot.comteq.edu.ph is not available
-      console.log("http://iot.comteq.edu.ph:50001 is not working");
+      // 192.168.1.201 is not available
+      console.log("192.168.1.201 is not working");
       // Perform any desired actions
     }
   })
@@ -106,7 +106,7 @@ function toggleButton(button) {
   const xhr = new XMLHttpRequest();
   xhr.open(
     "GET",
-    `http://iot.comteq.edu.ph:50001?${encodeURIComponent(message)}`,
+    `192.168.1.201?${encodeURIComponent(message)}`,
     true
   );
   xhr.send();
