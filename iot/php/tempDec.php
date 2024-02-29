@@ -15,6 +15,23 @@ if ($conn) {
         $sql = "UPDATE temperature SET VALUE = VALUE - 1 WHERE ID = 1";
         $conn->query($sql);
     }
+
+        $arduino_ip = '192.168.1.120';
+        $arduino_port = 8080; // Change this to the port your Arduino is listening on
+        $data = 'Temp: Dec';
+
+        // Create a TCP/IP socket connection to the Arduino
+        $socket = fsockopen($arduino_ip, $arduino_port, $errno, $errstr, 10);
+        if (!$socket) {
+            echo "Error: $errstr ($errno)<br>";
+        } else {
+            // Send the data to the Arduino
+            fwrite($socket, $data);
+            fclose($socket);    
+            echo "Data sent to Arduino: $data<br>";
+        }
+
+
     session_start();
     $IDS = $_SESSION['ID'];
     $activityID = 7;
