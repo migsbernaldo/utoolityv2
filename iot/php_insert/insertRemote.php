@@ -32,8 +32,9 @@ if ($result->num_rows > 0) {
 
     } else {
         $activityID = 5;
-        
+
         $arduino_ip = '192.168.1.120';
+        $arduino_port = 8080; // Change this to the port your Arduino is listening on
         $data = 'Power: 1';
 
         // Create a TCP/IP socket connection to the Arduino
