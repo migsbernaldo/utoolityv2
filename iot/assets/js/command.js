@@ -114,7 +114,7 @@ function toggleButton(button) {
 
 ////////////////////////////////////////coloring based on last state data//////////////////////////////////////////////////////////////
 fetch("php_color/acu.php")
-  .then(response => response.text())
+  .then(response => response.text())    
   .then(data => {
     const state = data.trim().toLowerCase();
     const color =
