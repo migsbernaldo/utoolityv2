@@ -16,7 +16,7 @@ if ($conn) {
         $conn->query($sql);
     }
 
-    $arduino_ip = '192.168.1.120';
+    $arduino_ip = '192.168.1.220';
     $arduino_port = 8080; // Change this to the port your Arduino is listening on
     $data = 'Temp: Inc';
 

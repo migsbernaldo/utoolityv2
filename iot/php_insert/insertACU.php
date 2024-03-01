@@ -13,7 +13,7 @@ if ($result->num_rows > 0) {
     if ($lastActivityID == 1) {
         $activityID = 2;
 
-            $arduino_ip = '192.168.1.120';
+            $arduino_ip = '192.168.1.220';
             $arduino_port = 8080; // Change this to the port your Arduino is listening on
 
             // Data to send to the Arduino
@@ -34,7 +34,7 @@ if ($result->num_rows > 0) {
     } else {
         $activityID = 1;
 
-        $arduino_ip = '192.168.1.120';
+        $arduino_ip = '192.168.1.220';
         $arduino_port = 8080; // Change this to the port your Arduino is listening on
 
         // Data to send to the Arduino

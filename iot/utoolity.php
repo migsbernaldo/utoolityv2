@@ -494,7 +494,7 @@
             <div id="header-container">
                 <h2>uTOOLity</h2>
                 <button onclick="downloadCSV()" id="LogOut"><i class="fa fa-floppy-o"></i></button>
-                <form action="http://192.168.1.120/iot/logout.php" method="post">
+                <form action="http://192.168.1.220/iot/logout.php" method="post">
                     <button id="userlogout" name="submit" value="Execute PHP File"><i class="fa fa-sign-out" aria-hidden="true"></i></button>
                                     
                 </form>
@@ -517,7 +517,7 @@
                             <div id="line"></div>
 
                             <div id="light-breaker">
-                                <form action="http://192.168.1.120/iot/php/lights.php" method="post">
+                                <form action="http://192.168.1.220/iot/php/lights.php" method="post">
                                     <button id="LightBreakerButton" name="submit" value="Execute PHP File"><i class="fa fa-lightbulb-o" aria-hidden="true"></i></button>
                                 </form>
                                 <p>Lights</p>
@@ -530,13 +530,13 @@
                         <div id="bot-container">
                             <div id="bot-col1">
                                 <div id="power-col">
-                                    <form action="http://192.168.1.120/iot/php/remote.php" method="post">
+                                    <form action="http://192.168.1.220/iot/php/remote.php" method="post">
                                         <button id="RemoteButton" name="submit" value="Execute PHP File"><i class="fa fa-power-off"></i></button>
                                     </form>
                                     <p>Power</p>
                                 </div>
                                 <div id="pair-col">
-                                    <form action="http://192.168.1.120/iot/php/pairing.php" method="post">
+                                    <form action="http://192.168.1.220/iot/php/pairing.php" method="post">
                                         <button id="PairingButton" name="submit" type="submit"><i class='fa fa-rotate-right'></i></button>
                                     </form>
                                     <p id="pair">Pair</p>
@@ -544,10 +544,10 @@
                             </div>
                             <div id="bot-line"></div>
                             <div id="temp-col">
-                                <form action="http://192.168.1.120/iot/php/tempInc.php" method="post">
+                                <form action="http://192.168.1.220/iot/php/tempInc.php" method="post">
                                     <button id="TempIncButton" name="submit" value="Execute PHP File"><i class="fa fa-plus"></i></button>
                                 </form>
-                                <form action="http://192.168.1.120/iot/php/tempDec.php" method="post">
+                                <form action="http://192.168.1.220/iot/php/tempDec.php" method="post">
                                     <button id="TempDecButton" name="submit" value="Execute PHP File"><i class="fa fa-minus"></i></button>
                                 </form>  
                                 <div id="temp-row">
